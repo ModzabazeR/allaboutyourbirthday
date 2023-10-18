@@ -4,5 +4,5 @@
 </svelte:head>
 
 <section class="flex h-screen justify-center items-center text-center">
-	<h1 class="text-4xl">Hello!</h1>
+	<h1 class="text-4xl">Hello from Docker!</h1>
 </section>
