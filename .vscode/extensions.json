@@ -1,0 +1,23 @@
+{
+	// See https://go.microsoft.com/fwlink/?LinkId=827846 to learn about workspace recommendations.
+	// Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
+
+	// List of extensions which should be recommended for users of this workspace.
+	"recommendations": [
+		"austenc.tailwind-docs",
+		"bradlc.vscode-tailwindcss",
+		"esbenp.prettier-vscode",
+		"formulahendry.auto-close-tag",
+		"formulahendry.auto-rename-tag",
+		"ms-azuretools.vscode-docker",
+		"svelte.svelte-vscode",
+		"vscode-icons-team.vscode-icons",
+		"VisualStudioExptTeam.intellicode-api-usage-examples",
+		"VisualStudioExptTeam.vscodeintellicode",
+		"eamodio.gitlens",
+	],
+	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
+	"unwantedRecommendations": [
+		
+	]
+}
