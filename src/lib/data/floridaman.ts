@@ -61,5 +61,16 @@ export const floridaman: IFloridaman[] = [
 				year: 2022
 			}
 		]
-	}
+	},
+	{
+		day: 1,
+		month:10,
+		data: [
+			{
+				title: 'Florida man arrested for throwing the Bible at deputies',
+				link: 'https://www.mysuncoast.com/2020/10/01/florida-man-arrested-throwing-bible-deputies/',
+				year: 2020
+			}
+		]
+	},
 ];
