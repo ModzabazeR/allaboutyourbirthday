@@ -7,4 +7,5 @@ export interface IFloridaman {
 export interface IFloridamanData {
     title: string;
     link: string;
+    year?: number;
 }
