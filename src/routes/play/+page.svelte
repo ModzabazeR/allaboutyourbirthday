@@ -1,6 +1,6 @@
 <script>
-    import Taskbar from "../../components/taskbar.svelte";
-    import ExitWindow from "../../components/exitWindow.svelte";
+    import Taskbar from "$components/taskbar.svelte";
+    import ExitWindow from "$components/exitWindow.svelte";
 </script>
 
 <section>

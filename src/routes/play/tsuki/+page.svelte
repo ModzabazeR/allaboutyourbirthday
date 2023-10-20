@@ -1,6 +1,6 @@
 <script>
-	import Taskbar from '../../../components/taskbar.svelte';
-	import ContactCard from '../../../components/contactCard.svelte';
+	import Taskbar from '$components/taskbar.svelte';
+	import ContactCard from '$components/contactCard.svelte';
 </script>
 
 <section>
