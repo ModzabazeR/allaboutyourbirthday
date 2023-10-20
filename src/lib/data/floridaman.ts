@@ -380,5 +380,174 @@ export const floridaman: IFloridaman[] = [
 				year: 2019
 			}
 		]
+	},
+	{
+		day: 1,
+		month: 2,
+		data: [
+			{
+				title: "A Florida man actually punted a rabid coyote in Kissimmee",
+				link: 'https://web.archive.org/web/20220121184236/https://www.orlandoweekly.com/Blogs/archives/2019/02/01/a-man-actually-punted-a-rabid-coyote-in-kissimmee',
+				year: 2019
+			}
+		]
+	},
+	{
+		day: 2,
+		month: 2,
+		data: [
+			{
+				title: "Man stabbed in the back at Gainesville bar over remark on a hat",
+				link: 'https://www.gainesville.com/story/news/crime/2019/02/02/man-stabbed-in-back-at-gainesville-bar-over-remark-on-hat/6131899007/',
+				year: 2019
+			}
+		]
+	},
+	{
+		day: 3,
+		month: 2,
+		data: [
+			{
+				title: "Wig helps lead to arrest of Florida man in 7-Eleven robbery",
+				link: 'https://www.local10.com/news/2019/02/03/wig-helps-lead-to-arrest-of-florida-man-in-7-eleven-robbery-deputies-say/',
+				year: 2019
+			}
+		]
+	},
+	{
+		day: 4,
+		month: 2,
+		data: [
+			{
+				title: "Florida man attacked sister, bit cop after someone touched his cigar",
+				link: 'https://www.wtsp.com/article/news/weird/wtflorida/florida-man-attacked-sister-bit-cop-after-someone-touched-his-cigar-police-say/67-4597ad08-bcda-4d13-95f7-d3c94a7983d0',
+				year: 2019
+			}
+		]
+	},
+	{
+		day: 5,
+		month: 2,
+		data: [
+			{
+				title: "Florida men accused of smearing feces in Crunch Fitness restroom, sauna",
+				link: 'https://www.wftv.com/news/local/florida-men-accused-of-smearing-feces-in-crunch-fitness-restroom-sauna/915166766/',
+				year: 2019
+			}
+		]
+	},
+	{
+		day: 6,
+		month: 2,
+		data: [
+			{
+				title: "Florida man tried to run over son because he didn’t want to take a bath",
+				link: 'https://nbc-2.com/nbc-2-wbbh/2019/02/06/florida-man-tried-to-run-over-son-because-he-didnt-want-to-take-a-bath/',
+				year: 2019
+			}
+		]
+	},
+	{
+		day: 7,
+		month: 2,
+		data: [
+			{
+				title: "Florida man accused of hiding marijuana in box of Valentine’s Day chocolates",
+				link: 'https://www.clickorlando.com/news/local/2020/02/07/high-on-love-florida-man-accused-of-hiding-marijuana-in-box-of-valentines-day-chocolates/',
+				year: 2020
+			},
+			{
+				title: "Florida man dances through DUI sobriety test",
+				link: 'https://www.local10.com/news/2019/02/07/florida-man-dances-through-dui-sobriety-test/',
+				year: 2019
+			}
+		]
+	},
+	{
+		day: 8,
+		month: 2,
+		data: [
+			{
+				title: "Florida man drunkenly claiming to be Mick Jagger in downtown Naples arrested",
+				link: 'https://winknews.com/2022/02/08/florida-man-drunkenly-claiming-to-be-mick-jagger-in-downtown-naples-arrested/',
+				year: 2022
+			},
+			{
+				title: "Florida man arrested after punching girlfriend who changed channel from Super Bowl",
+				link: 'https://mycbs4.com/news/local/report-florida-man-arrested-after-punching-girlfriend-who-changed-channel-from-super-bowl',
+				year: 2021
+			}
+		]
+	},
+	{
+		day: 9,
+		month: 2,
+		data: [
+			{
+				title: "Florida man charged with 'throwing alligator' into fast-food restaurant",
+				link: 'https://www.bbc.com/news/world-us-canada-35534633',
+				year: 2016
+			}
+		]
+	},
+	{
+		day: 10,
+		month: 2,
+		data: [
+			{
+				title: "Florida man finds message in a bottle washed up on beach",
+				link: 'https://www.upi.com/Odd_News/2023/02/10/message-bottle-Flagler-Beach-Florida/6171676053093/',
+				year: 2023
+			}
+		]
+	},
+	{
+		day: 11,
+		month: 2,
+		data: [
+			{
+				title: "Florida Man Recorded Himself Having Sex with Dog",
+				link: 'https://www.wctv.tv/content/news/Florida-man-recorded-himself-having-sex-with-his-dog-deputies-say-505702931.html',
+				year: 2019
+			},
+			{
+				title: "Florida Man Throws Burrito in Woman’s Face, Cops Say. And This Has Happened Before",
+				link: 'https://www.miamiherald.com/news/state/florida/article226168030.html',
+				year: 2019
+			}
+		]
+	},
+	{
+		day: 12,
+		month: 2,
+		data: [
+			{
+				title: "Florida man looking for auto parts store gets directions to jail",
+				link: 'https://www.mysuncoast.com/2020/02/12/man-looking-auto-parts-store-gets-directions-jail/',
+				year: 2020
+			}
+		]
+	},
+	{
+		day: 13,
+		month: 2,
+		data: [
+			{
+				title: "Florida Man Fights To Keep Last $809 After IRS Seizes Bogus $980,000 Tax Refund",
+				link: 'https://www.inquisitr.com/5295824/florida-man-fights-to-keep-last-809-after-irs-seizes-bogus-980000-tax-refund',
+				year: 2019
+			}
+		]
+	},
+	{
+		day: 14,
+		month: 2,
+		data: [
+			{
+				title: "Florida man caught on camera licking doorbell",
+				link: 'https://wsvn.com/news/local/florida-man-caught-on-camera-licking-doorbell/',
+				year: 2019
+			}
+		]
 	}
 ];
