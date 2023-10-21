@@ -179,7 +179,8 @@ export const floridaman: IFloridaman[] = [
 		month: 1,
 		data: [
 			{
-				title: "Florida Man Causes Highway Crash, Steals Good Samaritan's Truck Who Stopped To Help",
+				title:
+					"Florida Man Causes Highway Crash, Steals Good Samaritan's Truck Who Stopped To Help",
 				link: 'https://www.cbsnews.com/miami/news/florida-man-causes-crash-steals-truck/',
 				year: 2019
 			}
@@ -190,7 +191,7 @@ export const floridaman: IFloridaman[] = [
 		month: 1,
 		data: [
 			{
-				title: "Florida man who drove Ferrari into water said ‘Jesus told him to’",
+				title: 'Florida man who drove Ferrari into water said ‘Jesus told him to’',
 				link: 'https://nbc-2.com/nbc-2-wbbh/2019/01/16/florida-man-who-drove-ferrari-into-water-said-jesus-told-him-to/',
 				year: 2019
 			}
@@ -201,7 +202,7 @@ export const floridaman: IFloridaman[] = [
 		month: 1,
 		data: [
 			{
-				title: "Florida man chased down by horses while eluding arrest",
+				title: 'Florida man chased down by horses while eluding arrest',
 				link: 'https://www.clickorlando.com/news/2019/01/17/video-florida-man-chased-down-by-horses-while-eluding-arrest-deputies-say/',
 				year: 2019
 			}
@@ -212,7 +213,7 @@ export const floridaman: IFloridaman[] = [
 		month: 1,
 		data: [
 			{
-				title: "Florida man arrested for DUI after mistaking bank drive-thru for Taco Bell",
+				title: 'Florida man arrested for DUI after mistaking bank drive-thru for Taco Bell',
 				link: 'https://www.10news.com/news/national/florida-man-arrested-for-dui-after-mistaking-bank-drive-thru-for-taco-bell',
 				year: 2018
 			}
@@ -234,7 +235,8 @@ export const floridaman: IFloridaman[] = [
 		month: 1,
 		data: [
 			{
-				title: "Florida man attempts to hide underwater from cops, gets arrested after coming up for air",
+				title:
+					'Florida man attempts to hide underwater from cops, gets arrested after coming up for air',
 				link: 'https://www.foxnews.com/us/florida-man-underwater-escape-police-arrested',
 				year: 2020
 			}
@@ -245,7 +247,8 @@ export const floridaman: IFloridaman[] = [
 		month: 1,
 		data: [
 			{
-				title: "Florida man known as ‘The Monkey Whisperer’ arrested for illegally selling primates",
+				title:
+					'Florida man known as ‘The Monkey Whisperer’ arrested for illegally selling primates',
 				link: 'https://www.kiro7.com/news/trending/florida-man-known-monkey-whisperer-arrested-illegally-selling-primates/2JXFDADYOFETJIHRYKRAJGIZVY/',
 				year: 2021
 			}
@@ -256,7 +259,7 @@ export const floridaman: IFloridaman[] = [
 		month: 1,
 		data: [
 			{
-				title: "Florida man accused of stealing crossbow by shoving it down his sweatpants",
+				title: 'Florida man accused of stealing crossbow by shoving it down his sweatpants',
 				link: 'https://www.the-independent.com/news/world/americas/crime/florida-man-crossbow-pants-trousers-b2022808.html',
 				year: 2022
 			}
@@ -278,7 +281,7 @@ export const floridaman: IFloridaman[] = [
 		month: 1,
 		data: [
 			{
-				title: "Florida man in Easter Bunny outfit arrested after hit-and-run crash",
+				title: 'Florida man in Easter Bunny outfit arrested after hit-and-run crash',
 				link: 'https://www.kiro7.com/news/trending/florida-man-easter-bunny-outfit-arrested-after-hit-and-run-crash-troopers-say/ZIX54JLGQNBHVDGF3I2GXK2DQ4/',
 				year: 2020
 			}
@@ -289,7 +292,7 @@ export const floridaman: IFloridaman[] = [
 		month: 1,
 		data: [
 			{
-				title: "Florida man arrested at Waffle House after alleged outburst over bacon",
+				title: 'Florida man arrested at Waffle House after alleged outburst over bacon',
 				link: 'https://nypost.com/2022/01/25/florida-man-arrested-at-waffle-house-after-over-bacon/',
 				year: 2022
 			}
@@ -300,7 +303,7 @@ export const floridaman: IFloridaman[] = [
 		month: 1,
 		data: [
 			{
-				title: "Florida Man Finds a WWII Grenade, Places It in His Truck, Drives to Taco Bell",
+				title: 'Florida Man Finds a WWII Grenade, Places It in His Truck, Drives to Taco Bell',
 				link: 'https://www.thrillist.com/news/nation/florida-man-finds-wwii-grenade-drives-to-taco-bell',
 				year: 2019
 			}
@@ -311,7 +314,8 @@ export const floridaman: IFloridaman[] = [
 		month: 1,
 		data: [
 			{
-				title: "Florida Man Prompts Evacuation at Taco Bell After Bringing Grenade He Found While Fishing",
+				title:
+					'Florida Man Prompts Evacuation at Taco Bell After Bringing Grenade He Found While Fishing',
 				link: 'https://ktla.com/news/florida-man-prompts-evacuation-at-taco-bell-after-bringing-grenade-he-found-while-fishing/',
 				year: 2019
 			}
@@ -322,12 +326,12 @@ export const floridaman: IFloridaman[] = [
 		month: 1,
 		data: [
 			{
-				title: "Florida man threatened employees with gun when chicken wings order was late",
+				title: 'Florida man threatened employees with gun when chicken wings order was late',
 				link: 'https://www.kiro7.com/news/trending/florida-man-threatened-employees-with-gun-when-chicken-wings-order-was-late-police-say/SOG2Q4LLPZBJ5NLEQ3URT2XRJM/',
 				year: 2023
 			},
 			{
-				title: "Florida man thought he stole opioids, got laxatives instead",
+				title: 'Florida man thought he stole opioids, got laxatives instead',
 				link: 'https://www.wtxl.com/news/police-florida-man-thought-he-stole-opioids-got-laxatives-instead/article_4154ccb6-234c-11e9-b587-23388e4a8b84.html',
 				year: 2019
 			}
@@ -338,12 +342,12 @@ export const floridaman: IFloridaman[] = [
 		month: 1,
 		data: [
 			{
-				title: "Florida man sentenced to jail and moral therapy for attacking a Minion",
+				title: 'Florida man sentenced to jail and moral therapy for attacking a Minion',
 				link: 'https://www.orlandoweekly.com/news/florida-man-sentenced-to-jail-and-moral-therapy-for-attacking-a-minion-23602592',
 				year: 2019
 			},
 			{
-				title: "Florida man accused of robbing Chinese restaurant at finger point",
+				title: 'Florida man accused of robbing Chinese restaurant at finger point',
 				link: 'https://www.wtsp.com/article/news/weird/wtflorida/florida-man-accused-of-robbing-chinese-restaurant-at-finger-point/67-11cb0cbd-b7b9-4581-8d05-547a873b3744',
 				year: 2019
 			}
@@ -354,12 +358,12 @@ export const floridaman: IFloridaman[] = [
 		month: 1,
 		data: [
 			{
-				title: "Florida man buys winning $1 million scratch-off game after being cut in line",
+				title: 'Florida man buys winning $1 million scratch-off game after being cut in line',
 				link: 'https://www.ksat.com/news/national/2023/01/30/florida-man-buys-winning-1-million-scratch-off-game-after-being-cut-in-line/',
 				year: 2023
 			},
 			{
-				title: "Florida man spent weeks in jail for heroin that was actually detergent",
+				title: 'Florida man spent weeks in jail for heroin that was actually detergent',
 				link: 'https://www.wfla.com/news/florida/florida-man-spent-weeks-in-jail-for-heroin-that-was-actually-detergent/1739544148/',
 				year: 2019
 			}
@@ -370,12 +374,13 @@ export const floridaman: IFloridaman[] = [
 		month: 1,
 		data: [
 			{
-				title: "Florida Man With Florida Tattoo On Forehead Arrested For Misuse Of 911, Marijuana Possession",
+				title:
+					'Florida Man With Florida Tattoo On Forehead Arrested For Misuse Of 911, Marijuana Possession',
 				link: 'https://www.cbsnews.com/miami/news/florida-man-florida-tattoo-forehead-misusing-911-marijuana-possession/',
 				year: 2021
 			},
 			{
-				title: "Florida man thought he’d do donuts on an airport runway. Police weren’t amused",
+				title: 'Florida man thought he’d do donuts on an airport runway. Police weren’t amused',
 				link: 'https://www.miamiherald.com/news/state/florida/article225336285.html',
 				year: 2019
 			}
@@ -386,7 +391,7 @@ export const floridaman: IFloridaman[] = [
 		month: 2,
 		data: [
 			{
-				title: "A Florida man actually punted a rabid coyote in Kissimmee",
+				title: 'A Florida man actually punted a rabid coyote in Kissimmee',
 				link: 'https://web.archive.org/web/20220121184236/https://www.orlandoweekly.com/Blogs/archives/2019/02/01/a-man-actually-punted-a-rabid-coyote-in-kissimmee',
 				year: 2019
 			}
@@ -397,7 +402,7 @@ export const floridaman: IFloridaman[] = [
 		month: 2,
 		data: [
 			{
-				title: "Man stabbed in the back at Gainesville bar over remark on a hat",
+				title: 'Man stabbed in the back at Gainesville bar over remark on a hat',
 				link: 'https://www.gainesville.com/story/news/crime/2019/02/02/man-stabbed-in-back-at-gainesville-bar-over-remark-on-hat/6131899007/',
 				year: 2019
 			}
@@ -408,7 +413,7 @@ export const floridaman: IFloridaman[] = [
 		month: 2,
 		data: [
 			{
-				title: "Wig helps lead to arrest of Florida man in 7-Eleven robbery",
+				title: 'Wig helps lead to arrest of Florida man in 7-Eleven robbery',
 				link: 'https://www.local10.com/news/2019/02/03/wig-helps-lead-to-arrest-of-florida-man-in-7-eleven-robbery-deputies-say/',
 				year: 2019
 			}
@@ -419,7 +424,7 @@ export const floridaman: IFloridaman[] = [
 		month: 2,
 		data: [
 			{
-				title: "Florida man attacked sister, bit cop after someone touched his cigar",
+				title: 'Florida man attacked sister, bit cop after someone touched his cigar',
 				link: 'https://www.wtsp.com/article/news/weird/wtflorida/florida-man-attacked-sister-bit-cop-after-someone-touched-his-cigar-police-say/67-4597ad08-bcda-4d13-95f7-d3c94a7983d0',
 				year: 2019
 			}
@@ -430,7 +435,7 @@ export const floridaman: IFloridaman[] = [
 		month: 2,
 		data: [
 			{
-				title: "Florida men accused of smearing feces in Crunch Fitness restroom, sauna",
+				title: 'Florida men accused of smearing feces in Crunch Fitness restroom, sauna',
 				link: 'https://www.wftv.com/news/local/florida-men-accused-of-smearing-feces-in-crunch-fitness-restroom-sauna/915166766/',
 				year: 2019
 			}
@@ -441,7 +446,7 @@ export const floridaman: IFloridaman[] = [
 		month: 2,
 		data: [
 			{
-				title: "Florida man tried to run over son because he didn’t want to take a bath",
+				title: 'Florida man tried to run over son because he didn’t want to take a bath',
 				link: 'https://nbc-2.com/nbc-2-wbbh/2019/02/06/florida-man-tried-to-run-over-son-because-he-didnt-want-to-take-a-bath/',
 				year: 2019
 			}
@@ -452,12 +457,12 @@ export const floridaman: IFloridaman[] = [
 		month: 2,
 		data: [
 			{
-				title: "Florida man accused of hiding marijuana in box of Valentine’s Day chocolates",
+				title: 'Florida man accused of hiding marijuana in box of Valentine’s Day chocolates',
 				link: 'https://www.clickorlando.com/news/local/2020/02/07/high-on-love-florida-man-accused-of-hiding-marijuana-in-box-of-valentines-day-chocolates/',
 				year: 2020
 			},
 			{
-				title: "Florida man dances through DUI sobriety test",
+				title: 'Florida man dances through DUI sobriety test',
 				link: 'https://www.local10.com/news/2019/02/07/florida-man-dances-through-dui-sobriety-test/',
 				year: 2019
 			}
@@ -468,12 +473,12 @@ export const floridaman: IFloridaman[] = [
 		month: 2,
 		data: [
 			{
-				title: "Florida man drunkenly claiming to be Mick Jagger in downtown Naples arrested",
+				title: 'Florida man drunkenly claiming to be Mick Jagger in downtown Naples arrested',
 				link: 'https://winknews.com/2022/02/08/florida-man-drunkenly-claiming-to-be-mick-jagger-in-downtown-naples-arrested/',
 				year: 2022
 			},
 			{
-				title: "Florida man arrested after punching girlfriend who changed channel from Super Bowl",
+				title: 'Florida man arrested after punching girlfriend who changed channel from Super Bowl',
 				link: 'https://mycbs4.com/news/local/report-florida-man-arrested-after-punching-girlfriend-who-changed-channel-from-super-bowl',
 				year: 2021
 			}
@@ -495,9 +500,14 @@ export const floridaman: IFloridaman[] = [
 		month: 2,
 		data: [
 			{
-				title: "Florida man finds message in a bottle washed up on beach",
+				title: 'Florida man finds message in a bottle washed up on beach',
 				link: 'https://www.upi.com/Odd_News/2023/02/10/message-bottle-Flagler-Beach-Florida/6171676053093/',
 				year: 2023
+			},
+			{
+				title: 'Naked Florida Man Found In Bathtub After Break-In',
+				link: 'https://www.cbsnews.com/miami/news/busted-in-the-buff-naked-florida-man-found-in-bathtub-after-break-in/',
+				year: 2022
 			}
 		]
 	},
@@ -506,12 +516,12 @@ export const floridaman: IFloridaman[] = [
 		month: 2,
 		data: [
 			{
-				title: "Florida Man Recorded Himself Having Sex with Dog",
+				title: 'Florida Man Recorded Himself Having Sex with Dog',
 				link: 'https://www.wctv.tv/content/news/Florida-man-recorded-himself-having-sex-with-his-dog-deputies-say-505702931.html',
 				year: 2019
 			},
 			{
-				title: "Florida Man Throws Burrito in Woman’s Face, Cops Say. And This Has Happened Before",
+				title: 'Florida Man Throws Burrito in Woman’s Face, Cops Say. And This Has Happened Before',
 				link: 'https://www.miamiherald.com/news/state/florida/article226168030.html',
 				year: 2019
 			}
@@ -522,7 +532,7 @@ export const floridaman: IFloridaman[] = [
 		month: 2,
 		data: [
 			{
-				title: "Florida man looking for auto parts store gets directions to jail",
+				title: 'Florida man looking for auto parts store gets directions to jail',
 				link: 'https://www.mysuncoast.com/2020/02/12/man-looking-auto-parts-store-gets-directions-jail/',
 				year: 2020
 			}
@@ -533,7 +543,7 @@ export const floridaman: IFloridaman[] = [
 		month: 2,
 		data: [
 			{
-				title: "Florida Man Fights To Keep Last $809 After IRS Seizes Bogus $980,000 Tax Refund",
+				title: 'Florida Man Fights To Keep Last $809 After IRS Seizes Bogus $980,000 Tax Refund',
 				link: 'https://www.inquisitr.com/5295824/florida-man-fights-to-keep-last-809-after-irs-seizes-bogus-980000-tax-refund',
 				year: 2019
 			}
@@ -544,9 +554,203 @@ export const floridaman: IFloridaman[] = [
 		month: 2,
 		data: [
 			{
-				title: "Florida man caught on camera licking doorbell",
+				title: 'Florida man caught on camera licking doorbell',
 				link: 'https://wsvn.com/news/local/florida-man-caught-on-camera-licking-doorbell/',
 				year: 2019
+			}
+		]
+	},
+	{
+		day: 15,
+		month: 2,
+		data: [
+			{
+				title:
+					"Florida Man claiming people were 'eating his brains' leads police on insane golf course chase",
+				link: 'https://www.golfdigest.com/story/florida-man-claiming-people-were-eating-his-brains-leads-police-on-insane-golf-course-chase',
+				year: 2019
+			},
+			{
+				title:
+					'Florida Man Who Threw Toilet Through Window in East St. Louis Found With Second Crapper',
+				link: 'https://www.riverfronttimes.com/news/florida-man-who-threw-toilet-through-window-in-east-st-louis-found-with-second-crapper-30452530',
+				year: 2019
+			}
+		]
+	},
+	{
+		day: 16,
+		month: 2,
+		data: []
+	},
+	{
+		day: 17,
+		month: 2,
+		data: [
+			{
+				title:
+					'Florida Man Causes Thousands of Dollars Worth of Property Damage Trying to Kill “Demons”',
+				link: 'https://www.nbcmiami.com/news/local/florida-man-causes-thousands-of-dollars-worth-of-property-damage-trying-to-kill-demons-pd/2192399/',
+				year: 2020
+			}
+		]
+	},
+	{
+		day: 18,
+		month: 2,
+		data: [
+			{
+				title:
+					"Florida man claiming to be 'an agent of God' caught carrying rattlesnake in Jacksonville Beach",
+				link: 'https://www.jacksonville.com/story/news/crime/2019/02/18/florida-man-claiming-to-be-an-agent-of-god-caught-carrying-rattlesnake-in-jacksonville-beach/53219542007/',
+				year: 2019
+			}
+		]
+	},
+	{
+		day: 19,
+		month: 2,
+		data: [
+			{
+				title: 'Florida man throws pizza slice at his mom during argument',
+				link: 'https://www.wtsp.com/article/news/crime/florida-man-throws-pizza-slice-at-his-mom-during-argument-deputies-say/67-01e8e6f4-f109-4cad-a6a5-6360cd59e343',
+				year: 2019
+			},
+			{
+				title: 'Florida man said he was ‘high and happy’ during DUI traffic stop',
+				link: 'https://www.cbs42.com/news/national/florida-man-said-he-was-high-and-happy-during-dui-traffic-stop-deputies-say/',
+				year: 2022
+			}
+		]
+	},
+	{
+		day: 20,
+		month: 2,
+		data: [
+			{
+				title: 'Florida man attacks gas station clerk with hot dogs, corn dog stick over beer',
+				link: 'https://www.foxnews.com/us/florida-man-attacks-gas-station-clerk-with-hot-dogs-corn-dog-stick-over-beer-cops-say',
+				year: 2018
+			},
+			{
+				title: 'Florida man fights off coyote with coffee cup',
+				link: 'https://www.wfla.com/news/florida/florida-man-fights-off-coyote-with-coffee-cup-i-smashed-him-/1796147044/',
+				year: 2019
+			}
+		]
+	},
+	{
+		day: 21,
+		month: 2,
+		data: [
+			{
+				title:
+					'Florida man charged with burglary after homeowners return and find him on couch watching TV',
+				link: 'https://www.boston25news.com/news/trending/florida-man-charged-with-burglary-after-homeowners-return-find-him-couch-watching-tv-police/YDVWRZVHCFDTZAS7B2OB5HADLE/',
+				year: 2021
+			},
+			{
+				title: "Florida Man Only Shaves Half of 'Giant Beard' for Wild Driver's License Photo",
+				link: 'https://www.newsweek.com/florida-man-shaves-giant-beard-wild-drivers-license-photo-viral-reddit-1681132',
+				year: 2022
+			}
+		]
+	},
+	{
+		day: 22,
+		month: 2,
+		data: [
+			{
+				title:
+					'Florida man arrested for loitering in neighborhood says he was checking security systems for President Donald Trump',
+				link: 'https://www.kiro7.com/news/trending/florida-man-arrested-loitering-neighborhood-says-he-was-checking-security-systems-president-donald-trump/MHY6MENOCVFATCNRCQOWQHKLNA/',
+				year: 2020
+			}
+		]
+	},
+	{
+		day: 23,
+		month: 2,
+		data: [
+			{
+				title: "Florida Man Makes Ghostly Guitar From His Metal Head Uncle's Skeleton Or Did He?",
+				link: 'https://www.cbsnews.com/miami/news/florida-man-skeleton-guitar-metal-music/',
+				year: 2021
+			}
+		]
+	},
+	{
+		day: 24,
+		month: 2,
+		data: [
+			{
+				title:
+					"'He's going to launch nuclear thermal war!' Florida man blames speeding ticket on Putin",
+				link: 'https://cbs12.com/news/local/hes-going-to-launch-nuclear-thermal-war-florida-man-blames-speeding-ticket-on-putin',
+				year: 2022
+			},
+			{
+				title: 'Florida man calls 911, admits to shooting naked man at apartment complex',
+				link: 'https://www.boston25news.com/news/trending/florida-man-calls-911-admits-shooting-naked-man-apartment-complex/ZE27M6NF7FH2DIKJMHGEVA34DA/',
+				year: 2021
+			}
+		]
+	},
+	{
+		day: 25,
+		month: 2,
+		data: [
+			{
+				title: 'Florida man arrested for allegedly throwing cookie at girlfriend',
+				link: 'https://www.foxnews.com/us/florida-man-arrested-for-allegedly-throwing-cookie-at-girlfriend',
+				year: 2019
+			}
+		]
+	},
+	{
+		day: 26,
+		month: 2,
+		data: [
+			{
+				title:
+					'Florida man breaks beer bottle over his head, gets shot by deputy who thought sound was gunshot',
+				link: 'https://www.tampabay.com/news/crime/2022/02/26/florida-man-breaks-beer-bottle-over-his-head-gets-shot-by-deputy-who-thought-sound-was-gunshot/',
+				year: 2022
+			}
+		]
+	},
+	{
+		day: 27,
+		month: 2,
+		data: [
+			{
+				title:
+					'Florida man dumps water on brother during argument over pie, faces up to 30 years in jail',
+				link: 'https://www.timesnownews.com/world/florida-man-dumps-water-on-brother-during-argument-over-pie-faces-up-to-30-years-in-jail-article-98263915',
+				year: 2023
+			},
+			{
+				title: 'Florida man sprayed other inmates with urine',
+				link: 'https://www.wtsp.com/article/news/crime/florida-man-sprayed-other-inmates-with-urine-deputies-say/67-77365ca9-d07f-47f4-9352-f95d9f4b78ef',
+				year: 2019
+			}
+		]
+	},
+	{
+		day: 28,
+		month: 2,
+		data: [
+			{
+				title:
+					'Florida man who allegedly threatened family with Coldplay lyrics ends standoff after SWAT promises him pizza',
+				link: 'https://www.foxnews.com/us/florida-man-ends-standoff-after-police-offer-him-pizza',
+				year: 2019
+			},
+			{
+				title:
+					'Florida man throws 8 Molotov cocktails at Department of Children and Families building after kids are taken away',
+				link: 'https://www.kiro7.com/news/trending/florida-man-throws-8-molotov-cocktails-department-children-families-building-after-kids-are-taken-away-police-say/EMKS5K75TVHQNIDWPYEFWA2634/',
+				year: 2020
 			}
 		]
 	}
