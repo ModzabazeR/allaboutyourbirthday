@@ -753,5 +753,198 @@ export const floridaman: IFloridaman[] = [
 				year: 2020
 			}
 		]
+	},
+	{
+		day: 1,
+		month: 3,
+		data: [
+			{
+				title: 'Florida man pulls out ‘Dank Gummies’ instead of ID after nearly hitting gas pump',
+				link: 'https://www.clickorlando.com/news/2021/03/09/florida-man-pulls-out-dank-gummies-instead-of-id-after-nearly-hitting-gas-pump-deputies-say/#//',
+				year: 2021
+			},
+			{
+				title:
+					'Florida House Speaker apologizes for referring to pregnant women as ‘host bodies’ in interview on abortion',
+				link: 'https://www.tampabay.com/florida-politics/buzz/2019/03/01/florida-house-speaker-apologizes-for-referring-to-pregnant-women-as-host-bodies-in-interview-on-abortion/',
+				year: 2019
+			}
+		]
+	},
+	{
+		day: 2,
+		month: 3,
+		data: [
+			{
+				title: 'Florida man sentenced to 10 days for dragging shark behind boat',
+				link: 'https://gephardtdaily.com/national-international/florida-man-sentenced-to-10-days-for-dragging-shark-behind-boat/',
+				year: 2019
+			},
+			{
+				title: 'Florida man rescued after cellphone sends SOS alert while vehicle submerged',
+				link: 'https://www.clickorlando.com/news/local/2023/03/02/im-freezing-florida-man-rescued-after-cell-phone-sends-sos-alert-while-vehicle-submerged/',
+				year: 2023
+			}
+		]
+	},
+	{
+		day: 3,
+		month: 3,
+		data: [
+			{
+				title: 'Florida man rescues grandma floating away on ice throne',
+				link: 'https://www.wcjb.com/content/news/Florida-man-rescues-grandma-floating-away-on-ice-throne-506624671.html',
+				year: 2019
+			}
+		]
+	},
+	{
+		day: 4,
+		month: 3,
+		data: [
+			{
+				title:
+					'Florida man accused of jumping naked on neighbor’s trampoline before breaking into home',
+				link: 'https://www.wsoctv.com/news/trending/florida-man-accused-jumping-naked-neighbors-trampoline-before-breaking-into-home/ZT5KE3QDK5FBZNNEJWXFJVFKIA/',
+				year: 2021
+			},
+			{
+				title: 'Florida man heard a bump at his door, it was 9-foot gator and it bit his leg',
+				link: 'https://www.cbsnews.com/miami/news/florida-man-heard-a-bump-at-his-door-it-was-9-foot-gator-and-it-bit-his-leg/',
+				year: 2023
+			}
+		]
+	},
+	{
+		day: 5,
+		month: 3,
+		data: [
+			{
+				title: 'Florida Man Attempts to Board Plane With Rocket Propelled Grenade Launcher',
+				link: 'https://www.957thehog.com/florida-man-attempts-to-board-plane-with-rocket-propelled-grenade-launcher/',
+				year: 2019
+			}
+		]
+	},
+	{
+		day: 6,
+		month: 3,
+		data: [
+			{
+				title:
+					"Florida man accused of murdering wife after telling police she is 'swimming with the fishes'",
+				link: 'https://www.foxnews.com/us/florida-man-arrested-for-murder-of-wife-after-telling-police-she-is-swimming-with-the-fishes',
+				year: 2021
+			}
+		]
+	},
+	{
+		day: 7,
+		month: 3,
+		data: [
+			{
+				title: "Florida man jailed after trying to 'barbecue all the child molesters'",
+				link: 'https://kutv.com/news/nation-world/police-florida-man-jailed-after-trying-to-barbecue-all-the-child-molesters',
+				year: 2018
+			}
+		]
+	},
+	{
+		day: 8,
+		month: 3,
+		data: [
+			{
+				title: 'Central Florida Man Broke Into Home, Fell Asleep on Couch While High on Meth',
+				link: 'https://www.nbcmiami.com/news/local/central-florida-man-broke-into-home-fell-asleep-on-couch-while-high-on-meth-police/861/',
+				year: 2019
+			}
+		]
+	},
+	{
+		day: 9,
+		month: 3,
+		data: [
+			{
+				title: 'Florida man arrested for stealing grouper, potatoes then impersonating federal officer',
+				link: 'https://www.firstcoastnews.com/article/news/regional/florida/florida-man-arrested-for-stealing-fish-potatoes-from-publix-then-impersonating-a-federal-officer/77-6e984c5d-7125-4791-b3d9-b91a0246358f',
+				year: 2020
+			}
+		]
+	},
+	{
+		day: 10,
+		month: 3,
+		data: [
+			{
+				title: 'Florida Man Hospitalized After SUV Plows Into Convenience Store',
+				link: 'https://www.cbsnews.com/miami/news/florida-man-beer-struck-suv-convenience-store/',
+				year: 2022
+			}
+		]
+	},
+	{
+		day: 11,
+		month: 3,
+		data: [
+			{
+				title: 'Florida man tries to eat stolen debit card',
+				link: 'https://www.clickorlando.com/news/local/2020/03/11/im-not-going-to-lie-its-cocaine-florida-man-tries-to-eat-stolen-debit-card-deputies-say/',
+				year: 2020
+			},
+			{
+				title: 'Naked Florida man tells police he is from ‘different earth’',
+				link: 'https://www.kiro7.com/news/trending/naked-florida-man-tells-police-he-is-different-earth/6K4JHSAOO5HINL3VLNRLNJJI7I/',
+				year: 2023
+			},
+			{
+				title: 'Florida Man Accused of Intentionally Pressure Washing His Neighbor',
+				link: 'https://www.esquire.com/news-politics/a26899191/florida-man-headlines-2019/',
+				year: 2019
+			}
+		]
+	},
+	{
+		day: 12,
+		month: 3,
+		data: [
+			{
+				title: 'Florida man nicknamed ‘Babycakes’ caught naked in a chair outside apartment complex',
+				link: 'https://www.boston25news.com/news/trending/florida-man-nicknamed-babycakes-caught-naked-chair-outside-apartment-complex/DSVYXJLUANB6PMLMXDSMPNPKP4/',
+				year: 2021
+			}
+		]
+	},
+	{
+		day: 13,
+		month: 3,
+		data: [
+			{
+				title: 'Florida men, one dressed in bull onesie, attempt to burn down house with Ragu sauce',
+				link: 'https://www.foxnews.com/us/florida-men-one-dressed-in-bull-onesie-attempt-to-burn-down-house-with-ragu-sauce-police-say',
+				year: 2018
+			}
+		]
+	},
+	{
+		day: 14,
+		month: 3,
+		data: [
+			{
+				title: "Milton man hit pregnant girlfriend with bag of tortilla chips over baby's paternity",
+				link: 'https://www.pnj.com/story/news/local/2019/03/14/florida-man-hits-pregnant-girlfriend-bag-tortilla-chips-over-babys-paternity-srso-says/3153868002/',
+				year: 2019
+			}
+		]
+	},
+	{
+		day: 15,
+		month: 3,
+		data: [
+			{
+				title: "Florida man finds bright green iguana in toilet, calls 911",
+				link: 'https://web.archive.org/web/20190330065448/https://www.wthr.com/article/florida-man-finds-bright-green-iguana-toilet-calls-911',
+				year: 2019
+			}
+		]
 	}
 ];
