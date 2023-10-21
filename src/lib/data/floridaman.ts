@@ -767,5 +767,357 @@ export const floridaman: IFloridaman[] = [
 				year: 2009
 			}
 		]
+	},
+	{
+		day: 1,
+		month: 9,
+		data: [
+			{
+				title: 'Florida man arrested, accused of attacking hotel employee with machete',
+				link: 'https://www.wfla.com/news/florida/florida-man-arrested-accused-of-attacking-hotel-employee-with-machete/',
+				year: 2021
+			}
+		]
+	},
+	{
+		day: 2,
+		month: 9,
+		data: [
+			{
+				title:
+					'Who is Robert Mondragon? Florida man charged for placing dead animals on Parkland memorial',
+				link: 'https://www.sportskeeda.com/pop-culture/news-who-robert-mondragon-florida-man-charged-placing-dead-animals-parkland-memorial',
+				year: 2022
+			}
+		]
+	},
+	{
+		day: 3,
+		month: 9,
+		data: [
+			{
+				title: 'Florida Man Arrested After Pooping',
+				link: 'https://987theshark.com/2020/09/03/florida-man-arrested-after-pooping/',
+				year: 2020
+			}
+		]
+	},
+	{
+		day: 4,
+		month: 9,
+		data: [
+			{
+				title: 'Florida man charged after toddler daughter accidentally swallows heroin',
+				link: 'https://www.actionnewsjax.com/news/trending/florida-man-charged-after-toddler-daughter-accidentally-swallows-heroin-police-say/SEHUYIKZYBB6NPJZH4VRZJM6VA/',
+				year: 2020
+			},
+			{
+				title:
+					'Florida man arrested after flaunting stolen Mercedes online following ‘rash’ of car break-ins',
+				link: 'https://nypost.com/2023/09/04/florida-man-arrested-after-flaunting-stolen-mercedes-online-following-rash-of-car-break-ins-deputies/',
+				year: 2023
+			}
+		]
+	},
+	{
+		day: 5,
+		month: 9,
+		data: [
+			{
+				title: 'Florida man parks Smart car in kitchen so it won’t blow away',
+				link: 'https://whdh.com/news/florida-man-parks-smart-car-in-kitchen-so-it-wont-blow-away/',
+				year: 2019
+			}
+		]
+	},
+	{
+		day: 6,
+		month: 9,
+		data: [
+			{
+				title: 'Florida man arrested after trying to cross Atlantic in ‘hamster wheel’ vessel',
+				link: 'https://www.clickorlando.com/news/florida/2023/09/06/florida-man-arrested-after-trying-to-cross-atlantic-in-hamster-wheel-vessel-report/s',
+				year: 2023
+			}
+		]
+	},
+	{
+		day: 7,
+		month: 9,
+		data: [
+			{
+				title:
+					'Florida man, drunk and naked, allegedly set house on fire in failed cookie baking attempt',
+				link: 'https://www.usatoday.com/story/news/nation-now/2018/09/07/florida-man-drunk-and-naked-allegedly-set-house-fire/1228241002/',
+				year: 2018
+			}
+		]
+	},
+	{
+		day: 8,
+		month: 9,
+		data: [
+			{
+				title: 'Florida man fatally shoots mom after he ‘lost it’ over argument about orange juice',
+				link: 'https://www.kiro7.com/news/trending/police-florida-man-fatally-shoots-mom-after-he-lost-it-over-argument-about-orange-juice/NPE2RHYZPBFBXODKQ5UNSREMJQ/',
+				year: 2020
+			}
+		]
+	},
+	{
+		day: 9,
+		month: 9,
+		data: [
+			{
+				title: 'Florida Man Fed Up With Potholes Plants Banana Tree In Middle Of Road',
+				link: 'https://www.cbsnews.com/miami/news/florida-man-banana-tree-pothole/',
+				year: 2021
+			}
+		]
+	},
+	{
+		day: 10,
+		month: 9,
+		data: [
+			{
+				title: 'Florida man twerks for officers during traffic stop, gets tased',
+				link: 'https://www.clickorlando.com/news/local/2021/09/10/florida-man-twerks-for-officers-during-traffic-stop-gets-tased-report-says/',
+				year: 2021
+			}
+		]
+	},
+	{
+		day: 11,
+		month: 9,
+		data: [
+			{
+				title:
+					'Florida man accused of beating, spitting on elderly victim who asked him to social distance',
+				link: 'https://www.clickorlando.com/news/local/2020/09/11/man-accused-of-beating-spitting-on-elderly-victim-who-asked-him-to-social-distance/',
+				year: 2020
+			}
+		]
+	},
+	{
+		day: 12,
+		month: 9,
+		data: [
+			{
+				title:
+					'Florida man deals with snake on windshield week after chicken took ride on hood of truck',
+				link: 'https://wsvn.com/news/local/florida/florida-man-deals-with-snake-on-windshield-week-after-chicken-took-ride-on-hood-of-truck/',
+				year: 2022
+			}
+		]
+	},
+	{
+		day: 13,
+		month: 9,
+		data: [
+			{
+				title: 'Florida man, 70, slams child because playground was too noisy',
+				link: 'https://www.clickorlando.com/news/florida/2021/09/13/florida-man-70-slams-child-because-playground-was-too-noisy-police-say/',
+				year: 2021
+			}
+		]
+	},
+	{
+		day: 14,
+		month: 9,
+		data: [
+			{
+				title:
+					'Shirtless Florida man travels to Myrtle Beach to head bang during Hurricane Florence',
+				link: 'https://www.orlandoweekly.com/news/shirtless-florida-man-travels-to-myrtle-beach-to-head-bang-during-hurricane-florence-18386353',
+				year: 2018
+			}
+		]
+	},
+	{
+		day: 15,
+		month: 9,
+		data: [
+			{
+				title:
+					"Florida man suspected of smelling woman's feet at library leads police on scooter chase",
+				link: 'https://www.chicagotribune.com/ct-florida-library-foot-sniffer-20150915-story.html',
+				year: 2015
+			}
+		]
+	},
+	{
+		day: 16,
+		month: 9,
+		data: [
+			{
+				title: 'Florida Man Burns Home to Get Rid of Vampires',
+				link: 'https://987theshark.com/2021/09/16/florida-man-burns-home-to-get-rid-of-vampires/',
+				year: 2021
+			}
+		]
+	},
+	{
+		day: 17,
+		month: 9,
+		data: [
+			{
+				title:
+					'Florida man charged with accidentally shooting bear that was trying to eat his trash',
+				link: 'https://www.clickorlando.com/news/local/2020/09/17/florida-man-charged-with-accidentally-shooting-bear-that-was-trying-to-eat-his-trash/',
+				year: 2020
+			}
+		]
+	},
+	{
+		day: 18,
+		month: 9,
+		data: [
+			{
+				title: 'Florida man rides Sea-Doo on highway',
+				link: 'https://www.miamiherald.com/latest-news/article218627450.html',
+				year: 2018
+			}
+		]
+	},
+	{
+		day: 19,
+		month: 9,
+		data: [
+			{
+				title: 'Florida man arrested for killing ex-wife and her son over electricity usage',
+				link: 'https://mycbs4.com/michael-williams-florida-man-arrested-for-killing-ex-wife-and-her-son-over-electricity-usage-sheriff-september-19-2022',
+				year: 2022
+			}
+		]
+	},
+	{
+		day: 20,
+		month: 9,
+		data: [
+			{
+				title:
+					'Florida man arrested after girl hit with flagpole during street corner pro-Trump rally',
+				link: 'https://www.wsls.com/news/local/2020/09/20/man-arrested-after-girl-hit-with-flagpole-during-street-corner-pro-trump-rally/',
+				year: 2020
+			}
+		]
+	},
+	{
+		day: 21,
+		month: 9,
+		data: [
+			{
+				title: 'Florida man arrested after attacking customer with scissors taken from the counter',
+				link: 'https://news.yahoo.com/florida-man-arrested-attacking-customer-143840247.html',
+				year: 2022
+			}
+		]
+	},
+	{
+		day: 22,
+		month: 9,
+		data: [
+			{
+				title: 'Florida man rides manatee, dares police to arrest him, gets arrested',
+				link: 'https://theweek.com/speedreads/650409/florida-man-rides-manatee-dares-police-arrest-gets-arrested',
+				year: 2016
+			}
+		]
+	},
+	{
+		day: 23,
+		month: 9,
+		data: [
+			{
+				title: 'Florida man tries to trade in vehicle he stole from same dealership',
+				link: 'https://www.clickorlando.com/news/florida/2021/09/23/florida-man-tries-to-trade-in-vehicle-he-stole-from-same-dealership-police-say/',
+				year: 2021
+			}
+		]
+	},
+	{
+		day: 24,
+		month: 9,
+		data: [
+			{
+				title: 'Florida man tries to start naked fight club at Chick-Fil-A',
+				link: 'https://www.local10.com/news/2018/09/24/florida-man-tries-to-start-naked-fight-club-at-chick-fil-a/',
+				year: 2018
+			}
+		]
+	},
+	{
+		day: 25,
+		month: 9,
+		data: [
+			{
+				title: ' Florida man climbs light pole, touches live wire, falls 50 feet',
+				link: 'https://www.clickorlando.com/news/2019/09/25/police-florida-man-climbs-light-pole-touches-live-wire-falls-50-feet/',
+				year: 2019
+			}
+		]
+	},
+	{
+		day: 26,
+		month: 9,
+		data: [
+			{
+				title:
+					'Florida man arrested, caught on video using samurai sword to fight over wheelbarrow',
+				link: 'https://www.foxnews.com/us/florida-man-samurai-sword-wheelbarrow',
+				year: 2019
+			},
+			{
+				title: 'Florida man, 74, attacked by rabid otter while feeding ducks',
+				link: 'https://www.clickorlando.com/news/local/2023/09/26/florida-man-74-attacked-by-rabid-otter-while-feeding-ducks/',
+				year: 2023
+			}
+		]
+	},
+	{
+		day: 27,
+		month: 9,
+		data: [
+			{
+				title: 'Florida man arrested after whipping out samurai sword in trash dispute',
+				link: 'https://globalnews.ca/news/5960224/sword-attack-florida-man/',
+				year: 2019
+			}
+		]
+	},
+	{
+		day: 28,
+		month: 9,
+		data: [
+			{
+				title:
+					'Florida Man Sentenced To Over 17 Years For Role In Oxycodone Distribution Conspiracy',
+				link: 'https://www.dea.gov/press-releases/2011/09/28/florida-man-sentenced-over-17-years-role-oxycodone-distribution',
+				year: 2011
+			}
+		]
+	},
+	{
+		day: 29,
+		month: 9,
+		data: [
+			{
+				title:
+					'Florida Man In His Underwear Hits Deputy In Face With Bible, Screams “I CONDEMN YOU,” Poops Himself',
+				link: 'https://www.whiskeyriff.com/2020/09/29/florida-man-in-his-underwear-hits-deputy-in-face-with-bible-screams-i-condemn-you-poops-himself/',
+				year: 2020
+			}
+		]
+	},
+	{
+		day: 30,
+		month: 9,
+		data: [
+			{
+				title: 'Florida man accused of throwing holy book at deputy',
+				link: 'https://www.clickorlando.com/news/local/2020/09/30/bible-thumping-florida-man-accused-of-throwing-holy-book-at-deputy/',
+				year: 2020
+			}
+		]
 	}
 ];
