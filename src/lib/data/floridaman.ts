@@ -865,7 +865,8 @@ export const floridaman: IFloridaman[] = [
 		month: 3,
 		data: [
 			{
-				title: 'Florida man arrested for stealing grouper, potatoes then impersonating federal officer',
+				title:
+					'Florida man arrested for stealing grouper, potatoes then impersonating federal officer',
 				link: 'https://www.firstcoastnews.com/article/news/regional/florida/florida-man-arrested-for-stealing-fish-potatoes-from-publix-then-impersonating-a-federal-officer/77-6e984c5d-7125-4791-b3d9-b91a0246358f',
 				year: 2020
 			}
@@ -908,7 +909,8 @@ export const floridaman: IFloridaman[] = [
 		month: 3,
 		data: [
 			{
-				title: 'Florida man nicknamed ‘Babycakes’ caught naked in a chair outside apartment complex',
+				title:
+					'Florida man nicknamed ‘Babycakes’ caught naked in a chair outside apartment complex',
 				link: 'https://www.boston25news.com/news/trending/florida-man-nicknamed-babycakes-caught-naked-chair-outside-apartment-complex/DSVYXJLUANB6PMLMXDSMPNPKP4/',
 				year: 2021
 			}
@@ -919,7 +921,8 @@ export const floridaman: IFloridaman[] = [
 		month: 3,
 		data: [
 			{
-				title: 'Florida men, one dressed in bull onesie, attempt to burn down house with Ragu sauce',
+				title:
+					'Florida men, one dressed in bull onesie, attempt to burn down house with Ragu sauce',
 				link: 'https://www.foxnews.com/us/florida-men-one-dressed-in-bull-onesie-attempt-to-burn-down-house-with-ragu-sauce-police-say',
 				year: 2018
 			}
@@ -930,7 +933,8 @@ export const floridaman: IFloridaman[] = [
 		month: 3,
 		data: [
 			{
-				title: "Milton man hit pregnant girlfriend with bag of tortilla chips over baby's paternity",
+				title:
+					"Milton man hit pregnant girlfriend with bag of tortilla chips over baby's paternity",
 				link: 'https://www.pnj.com/story/news/local/2019/03/14/florida-man-hits-pregnant-girlfriend-bag-tortilla-chips-over-babys-paternity-srso-says/3153868002/',
 				year: 2019
 			}
@@ -941,8 +945,213 @@ export const floridaman: IFloridaman[] = [
 		month: 3,
 		data: [
 			{
-				title: "Florida man finds bright green iguana in toilet, calls 911",
+				title: 'Florida man finds bright green iguana in toilet, calls 911',
 				link: 'https://web.archive.org/web/20190330065448/https://www.wthr.com/article/florida-man-finds-bright-green-iguana-toilet-calls-911',
+				year: 2019
+			}
+		]
+	},
+	{
+		day: 16,
+		month: 3,
+		data: [
+			{
+				title: 'Florida Man Caught With His Pecker In His Hand And A Pickle In His...',
+				link: 'https://96krock.com/2021/03/16/florida-man-caught-with-his-pecker-in-his-hand-and-a-pickle-in-his/',
+				year: 2021
+			},
+			{
+				title: 'Florida man breaks into store, flips off security camera',
+				link: 'https://www.boston25news.com/news/trending-now/florida-man-breaks-into-store-flips-off-security-camera-deputies-say/931262420/',
+				year: 2019
+			}
+		]
+	},
+	{
+		day: 17,
+		month: 3,
+		data: [
+			{
+				title:
+					'A Florida man was arrested after he allegedly called the police to verify the authenticity of his methamphetamine',
+				link: 'https://malaysia.news.yahoo.com/florida-man-nabbed-calling-911-071502532.html',
+				year: 2021
+			}
+		]
+	},
+	{
+		day: 18,
+		month: 3,
+		data: [
+			{
+				title: 'Florida man accused of throwing pancake batter at woman arrested',
+				link: 'https://www.wesh.com/article/florida-man-accused-of-throwing-pancake-batter-at-woman-arrested/26857033',
+				year: 2019
+			}
+		]
+	},
+	{
+		day: 19,
+		month: 3,
+		data: [
+			{
+				title: 'Hot sauce saves Florida man after car crashes into Taco Bell',
+				link: 'https://www.local10.com/news/2019/03/19/hot-sauce-saves-florida-man-after-car-crashes-into-taco-bell/',
+				year: 2019
+			}
+		]
+	},
+	{
+		day: 20,
+		month: 3,
+		data: [
+			{
+				title: 'Florida Man Attacked By Neighborhood Squirrel Who Has Residents On High Alert',
+				link: 'https://www.cbsnews.com/miami/news/florida-man-attacked-by-neighborhood-squirrel/',
+				year: 2019
+			}
+		]
+	},
+	{
+		day: 21,
+		month: 3,
+		data: [
+			{
+				title:
+					'Florida man climbs atop playground equipment at Clearwater park, tells kids where babies come from',
+				link: 'https://www.cbsnews.com/miami/news/florida-man-attacked-by-neighborhood-squirrel/',
+				year: 2018
+			}
+		]
+	},
+	{
+		day: 22,
+		month: 3,
+		data: [
+			{
+				title: 'Florida Man Googles self to find out which Florida Man he is',
+				link: 'https://www.nbcnews.com/news/us-news/florida-man-googles-self-find-out-which-florida-man-he-n986311',
+				year: 2019
+			},
+			{
+				title: 'South Florida man calls cops after being scammed over paid sex',
+				link: 'https://www.local10.com/news/2019/03/26/south-florida-man-calls-cops-after-being-scammed-over-paid-sex/',
+				year: 2019
+			}
+		]
+	},
+	{
+		day: 23,
+		month: 3,
+		data: [
+			{
+				title:
+					'Florida man with suspended license drives 100 mph with 3 kids in the back to get girlfriend to Taco Bell job interview',
+				link: 'https://nypost.com/2023/03/23/florida-man-drives-100-mph-to-get-girlfriend-to-taco-bell-interview/',
+				year: 2023
+			}
+		]
+	},
+	{
+		day: 24,
+		month: 3,
+		data: [
+			{
+				title: 'Florida man ticketed after eating pancakes in middle of intersection',
+				link: 'https://www.orlandoweekly.com/news/florida-man-ticketed-after-eating-pancakes-in-middle-of-intersection-3382321',
+				year: 2017
+			},
+			{
+				title: 'Florida Man Steals Hot Air Balloon From Indiana During Florida Man Challenge',
+				link: 'https://web.archive.org/web/20190530142447/http://www.brevardtimes.com/2019/03/florida-man-steals-hot-air-balloon-from-indiana-during-florida-man-challenge/',
+				year: 2019
+			}
+		]
+	},
+	{
+		day: 25,
+		month: 3,
+		data: [
+			{
+				title: 'Florida man electrocuted trying to remove bird from power line',
+				link: 'https://www.wthr.com/article/news/nation-world/florida-man-electrocuted-trying-remove-bird-power-line/531-c22719d4-12f3-46d3-a56c-32517d656cfc',
+				year: 2019
+			}
+		]
+	},
+	{
+		day: 26,
+		month: 3,
+		data: [
+			{
+				title: 'Florida man accused of stealing $800 worth of lingerie from Dillard’s',
+				link: 'https://www.clickorlando.com/news/local/2020/03/26/florida-man-accused-of-stealing-800-worth-of-lingerie-from-dillards/',
+				year: 2020
+			}
+		]
+	},
+	{
+		day: 27,
+		month: 3,
+		data: [
+			{
+				title: 'Florida Man calls 911 to get out of his fast food shift',
+				link: 'https://www.miamiherald.com/news/state/florida/article228487694.html',
+				year: 2019
+			}
+		]
+	},
+	{
+		day: 28,
+		month: 3,
+		data: [
+			{
+				title: "A Florida man's job application led to his arrest in a 1998 cold case",
+				link: 'https://www.usatoday.com/story/news/nation/2019/03/28/florida-man-applied-job-arrested-when-dna-matched-cold-case/3304568002/',
+				year: 2019
+			}
+		]
+	},
+	{
+		day: 29,
+		month: 3,
+		data: [
+			{
+				title:
+					'Florida Man Shoots and Kills Pet Zebra He Did Not Have a Permit For After Animal Escapes',
+				link: 'https://people.com/pets/florida-man-shoots-kills-pet-zebra-no-permit/',
+				year: 2019
+			}
+		]
+	},
+	{
+		day: 30,
+		month: 3,
+		data: [
+			{
+				title: "Florida man finds panther sitting on father's front porch",
+				link: 'https://www.upi.com/Odd_News/2016/03/30/Florida-man-finds-panther-sitting-on-fathers-front-porch/6731459360251/',
+				year: 2016
+			}
+		]
+	},
+	{
+		day: 31,
+		month: 3,
+		data: [
+			{
+				title: "Florida mother shot burglar who entered home because 'dinosaurs were chasing him'",
+				link: 'https://www.fox6now.com/news/sheriff-florida-mother-shot-burglar-who-entered-home-because-dinosaurs-were-chasing-him',
+				year: 2020
+			},
+			{
+				title: 'Florida Man Burned After Firing Rocket Inside Car',
+				link: 'https://www.fox6now.com/news/sheriff-florida-mother-shot-burglar-who-entered-home-because-dinosaurs-were-chasing-him',
+				year: 2004
+			},
+			{
+				title: 'Florida man arrested for stealing nearly $6,000 worth of sunglasses',
+				link: 'https://web.archive.org/web/20190401055729/https://www.wnct.com/news/national/florida-man-arrested-for-stealing-nearly-6-000-worth-of-sunglasses/1890650092',
 				year: 2019
 			}
 		]
