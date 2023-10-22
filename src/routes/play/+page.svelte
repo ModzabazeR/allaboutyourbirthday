@@ -3,7 +3,7 @@
     import ExitWindow from "$components/exitWindow.svelte";
 </script>
 
-<section>
+<section class="bg-[#067A7B]">
     <div class="box">
         <ExitWindow />
     </div>
