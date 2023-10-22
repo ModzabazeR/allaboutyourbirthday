@@ -755,6 +755,18 @@ export const floridaman: IFloridaman[] = [
 		]
 	},
 	{
+		day: 29,
+		month: 2,
+		data: [
+			{
+				title:
+					"Florida man upset at nurses sets fire to hospital bed, and more of this week's weirdest news",
+				link: 'https://elkodaily.com/news/weird/florida-man-upset-at-nurses-sets-fire-to-hospital-bed-and-more-of-this-weeks/collection_8b277504-c476-57df-a593-c9aa2edc1e26.html#1',
+				year: 2020
+			}
+		]
+	},
+	{
 		day: 1,
 		month: 3,
 		data: [
@@ -1161,7 +1173,8 @@ export const floridaman: IFloridaman[] = [
 		month: 4,
 		data: [
 			{
-				title: 'Florida man arrested after allegedly breaking into office, leaving sign in window saying Secretary wanted, $17/hour',
+				title:
+					'Florida man arrested after allegedly breaking into office, leaving sign in window saying Secretary wanted, $17/hour',
 				link: 'https://www.mysuncoast.com/2019/05/01/florida-man-arrested-after-breaking-into-office-leaving-sign-window-saying-secretary-wanted-hour/',
 				year: 2019
 			}
@@ -1172,7 +1185,8 @@ export const floridaman: IFloridaman[] = [
 		month: 4,
 		data: [
 			{
-				title: 'Florida man arrested after allegedly attacking victim with ski pole, knocking out teeth',
+				title:
+					'Florida man arrested after allegedly attacking victim with ski pole, knocking out teeth',
 				link: 'https://www.summitdaily.com/news/crime/florida-man-arrested-after-allegedly-attacking-victim-with-ski-pole-knocking-out-teeth/',
 				year: 2021
 			}
@@ -1184,7 +1198,7 @@ export const floridaman: IFloridaman[] = [
 		data: [
 			{
 				title: 'A Florida man is accused of killing his ex-girlfriend with a sword',
-				link: 'https://floridamanbirthday.org/april-3',
+				link: 'https://floridamanbirthday.org/april-3'
 			}
 		]
 	},
@@ -1204,7 +1218,8 @@ export const floridaman: IFloridaman[] = [
 		month: 4,
 		data: [
 			{
-				title: 'Minutes after being released from jail, a Florida man was arrested in the parking lot for breaking into cars',
+				title:
+					'Minutes after being released from jail, a Florida man was arrested in the parking lot for breaking into cars',
 				link: 'https://edition.cnn.com/2019/04/05/us/florida-man-car-theft/index.html',
 				year: 2019
 			}
@@ -1237,7 +1252,8 @@ export const floridaman: IFloridaman[] = [
 		month: 4,
 		data: [
 			{
-				title: 'Florida Man Gets Drunk at Disney Springs and Warns Police That They Better Hope He Is Never Their Nurse, Return of the Jedi Returning to Theaters',
+				title:
+					'Florida Man Gets Drunk at Disney Springs and Warns Police That They Better Hope He Is Never Their Nurse, Return of the Jedi Returning to Theaters',
 				link: 'https://wdwnt.com/2023/04/daily-recap-4-8-23/',
 				year: 2023
 			}
@@ -1281,7 +1297,8 @@ export const floridaman: IFloridaman[] = [
 		month: 4,
 		data: [
 			{
-				title: 'Drunken Florida man arrested after shoveling spaghetti into his mouth, yelling outside Olive Garden',
+				title:
+					'Drunken Florida man arrested after shoveling spaghetti into his mouth, yelling outside Olive Garden',
 				link: 'https://www.wsls.com/news/2019/04/12/drunken-florida-man-arrested-after-shoveling-spaghetti-into-his-mouth-yelling-outside-olive-garden/',
 				year: 2019
 			}
@@ -1303,7 +1320,8 @@ export const floridaman: IFloridaman[] = [
 		month: 4,
 		data: [
 			{
-				title: 'Shirtless Florida man, 32, is arrested outside an Olive Garden while shoving SPAGHETTI into his mouth',
+				title:
+					'Shirtless Florida man, 32, is arrested outside an Olive Garden while shoving SPAGHETTI into his mouth',
 				link: 'https://www.dailymail.co.uk/news/article-6921249/Florida-man-arrested-outside-Olive-Garden-shoving-spaghetti-mouth-hands.html',
 				year: 2019
 			}
@@ -1314,7 +1332,8 @@ export const floridaman: IFloridaman[] = [
 		month: 4,
 		data: [
 			{
-				title: 'Shirtless Florida man accused of breaking into restaurant to steal lava cake, cobbler & ice cream',
+				title:
+					'Shirtless Florida man accused of breaking into restaurant to steal lava cake, cobbler & ice cream',
 				link: 'https://www.wftv.com/news/local/lake-county/police-shirtless-florida-man-breaks-into-restaurant-steal-cobbler-lava-cake-ice-cream/QQE3CVVKGJFWLP6YRVX4TBRGBI/',
 				year: 2022
 			}
@@ -1358,7 +1377,8 @@ export const floridaman: IFloridaman[] = [
 		month: 4,
 		data: [
 			{
-				title: 'One Year Ago Today …Florida Man Arrested After Allegedly Robbing Woman He Paid for Sex',
+				title:
+					'One Year Ago Today …Florida Man Arrested After Allegedly Robbing Woman He Paid for Sex',
 				link: 'https://mynewsla.com/crime/2022/04/19/one-year-ago-today-april-19-2021-florida-man-arrested-after-allegedly-robbing-woman-he-paid-for-sex/',
 				year: 2021
 			}
@@ -1468,7 +1488,8 @@ export const floridaman: IFloridaman[] = [
 		month: 4,
 		data: [
 			{
-				title: 'Florida man sets fire to car belonging to ex-girlfriend who also happens to be his cousin',
+				title:
+					'Florida man sets fire to car belonging to ex-girlfriend who also happens to be his cousin',
 				link: 'https://www.fox35orlando.com/news/florida-man-sets-fire-to-car-belonging-to-ex-girlfriend-who-also-happens-to-be-his-cousin-police-say',
 				year: 2023
 			}
@@ -1479,7 +1500,8 @@ export const floridaman: IFloridaman[] = [
 		month: 4,
 		data: [
 			{
-				title: 'A Man In Florida Was Arrested For Kicking Swans In The Head. Witnesses Said He Was Laughing.',
+				title:
+					'A Man In Florida Was Arrested For Kicking Swans In The Head. Witnesses Said He Was Laughing.',
 				link: 'https://www.buzzfeednews.com/article/tanyachen/florida-man-arrested-for-kicking-swans-in-the-head',
 				year: 2018
 			}
@@ -1501,7 +1523,8 @@ export const floridaman: IFloridaman[] = [
 		month: 5,
 		data: [
 			{
-				title: 'Florida man wearing blue bonnet and flowery dress allegedly steals 28 cans of baby formula from Publix',
+				title:
+					'Florida man wearing blue bonnet and flowery dress allegedly steals 28 cans of baby formula from Publix',
 				link: 'https://www.news-press.com/story/news/crime/2019/05/02/florida-man-sought-stealing-baby-formula-publix-while-wearing-abonnet-bedecked-bandit-cape-coral-pub/3651299002/',
 				year: 2019
 			}
@@ -1512,7 +1535,8 @@ export const floridaman: IFloridaman[] = [
 		month: 5,
 		data: [
 			{
-				title: 'You Gotta Smoke A Bowl With Me Please: Florida Man Invites Police To Smoke Pot While Showing Off His Marijuana Plant',
+				title:
+					'You Gotta Smoke A Bowl With Me Please: Florida Man Invites Police To Smoke Pot While Showing Off His Marijuana Plant',
 				link: 'https://www.cbsnews.com/miami/news/florida-man-shows-off-marijuana-police-arrested/',
 				year: 2019
 			}
@@ -1523,7 +1547,8 @@ export const floridaman: IFloridaman[] = [
 		month: 5,
 		data: [
 			{
-				title: 'Florida man charged with battery after slapping girlfriend with cheeseburger, deputies say',
+				title:
+					'Florida man charged with battery after slapping girlfriend with cheeseburger, deputies say',
 				link: 'https://www.wfla.com/news/florida/florida-man-charged-with-battery-after-slapping-girlfriend-with-cheeseburger-deputies-say/',
 				year: 2019
 			}
@@ -1534,7 +1559,8 @@ export const floridaman: IFloridaman[] = [
 		month: 5,
 		data: [
 			{
-				title: 'Fugitive Florida man on bike hoped hideous blonde wig disguise would help him evade deputies, police say',
+				title:
+					'Fugitive Florida man on bike hoped hideous blonde wig disguise would help him evade deputies, police say',
 				link: 'https://www.foxnews.com/us/florida-man-fugitive-bike-blonde-wig-evade-deputies',
 				year: 2019
 			}
@@ -1545,7 +1571,8 @@ export const floridaman: IFloridaman[] = [
 		month: 5,
 		data: [
 			{
-				title: 'Florida Man punches Jimmy Johns employee because his sandwich took too long, was Freaky Fast enough',
+				title:
+					'Florida Man punches Jimmy Johns employee because his sandwich took too long, was Freaky Fast enough',
 				link: 'https://www.orlandoweekly.com/news/floridaman-punches-jimmy-john-employee-because-his-sandwich-took-to-long-wasnt-freaky-fast-enough-2391523',
 				year: 2015
 			}
@@ -1556,7 +1583,8 @@ export const floridaman: IFloridaman[] = [
 		month: 5,
 		data: [
 			{
-				title: 'F*** It, I m Drunk, Take Me To Jail: Florida Man Crashes Lawn Mower Into Police Car',
+				title:
+					'F*** It, I m Drunk, Take Me To Jail: Florida Man Crashes Lawn Mower Into Police Car',
 				link: 'https://www.cbsnews.com/miami/news/drunk-florida-man-crashes-lawn-mower-police-car/',
 				year: 2019
 			}
@@ -1578,7 +1606,8 @@ export const floridaman: IFloridaman[] = [
 		month: 5,
 		data: [
 			{
-				title: 'Florida man cited after authorities found an illegally poached gator foot stuck in his dashboard',
+				title:
+					'Florida man cited after authorities found an illegally poached gator foot stuck in his dashboard',
 				link: 'https://www.orlandoweekly.com/news/a-florida-man-was-cited-after-authorites-found-an-illegally-poached-gator-foot-stuck-in-his-dashboard-2490416',
 				year: 2016
 			}
@@ -1589,7 +1618,8 @@ export const floridaman: IFloridaman[] = [
 		month: 5,
 		data: [
 			{
-				title: 'Florida man steals alligator from golf course, tries teaching it a lesson by throwing it on roof of bar',
+				title:
+					'Florida man steals alligator from golf course, tries teaching it a lesson by throwing it on roof of bar',
 				link: 'https://www.news10.com/news/florida-man-steals-alligator-from-golf-course-tries-teaching-it-a-lesson-by-throwing-it-on-roof-of-bar/',
 				year: 2021
 			}
@@ -1611,7 +1641,8 @@ export const floridaman: IFloridaman[] = [
 		month: 5,
 		data: [
 			{
-				title: 'A Florida Man Was Arrested After Telling A Playground Full Of Kids Where Babies Come From',
+				title:
+					'A Florida Man Was Arrested After Telling A Playground Full Of Kids Where Babies Come From',
 				link: 'https://www.buzzfeednews.com/article/skbaer/this-man-was-arrested-after-telling-playground-kids-babies-c',
 				year: 2018
 			}
@@ -1666,7 +1697,8 @@ export const floridaman: IFloridaman[] = [
 		month: 5,
 		data: [
 			{
-				title: 'Florida man accused of stealing samurai sword, truck arrested after leaving cellphone at crime scene',
+				title:
+					'Florida man accused of stealing samurai sword, truck arrested after leaving cellphone at crime scene',
 				link: 'https://www.kiro7.com/news/trending/florida-man-accused-stealing-samurai-sword-truck-arrested-after-leaving-cellphone-crime-scene/YFHCSRN3A5BHFDWRIGJ4MNWBGU/',
 				year: 2021
 			}
@@ -1699,7 +1731,8 @@ export const floridaman: IFloridaman[] = [
 		month: 5,
 		data: [
 			{
-				title: 'Florida Man Arrested for Attacking Daughter With Pizza After She Didnot Want to Eat With Him',
+				title:
+					'Florida Man Arrested for Attacking Daughter With Pizza After She Didnot Want to Eat With Him',
 				link: 'https://www.newsweek.com/florida-man-arrested-attacking-daughter-pizza-after-she-didnt-want-eat-him-1594863',
 				year: 2021
 			}
@@ -1710,7 +1743,8 @@ export const floridaman: IFloridaman[] = [
 		month: 5,
 		data: [
 			{
-				title: 'Florida man climbs atop playground equipment at Clearwater park, tells kids where babies come from',
+				title:
+					'Florida man climbs atop playground equipment at Clearwater park, tells kids where babies come from',
 				link: 'https://www.tampabay.com/news/bizarre/Florida-man-climbs-atop-playground-equipment-at-Clearwater-park-tells-kids-where-babies-come-from_168438881/',
 				year: 2018
 			}
@@ -1743,7 +1777,8 @@ export const floridaman: IFloridaman[] = [
 		month: 5,
 		data: [
 			{
-				title: 'Florida man Jordan Rivera, whose arm was ripped off by 10-foot gator, was peeing in pond because bar line was too long',
+				title:
+					'Florida man Jordan Rivera, whose arm was ripped off by 10-foot gator, was peeing in pond because bar line was too long',
 				link: 'https://nypost.com/2023/05/24/jordan-rivera-who-lost-arm-to-gator-was-peeing-in-florida-pond/',
 				year: 2023
 			}
@@ -1787,7 +1822,8 @@ export const floridaman: IFloridaman[] = [
 		month: 5,
 		data: [
 			{
-				title: 'Florida man arrested after allegedly pouring gas on another man and lighting him on fire: police',
+				title:
+					'Florida man arrested after allegedly pouring gas on another man and lighting him on fire: police',
 				link: 'https://www.foxnews.com/us/florida-man-arrested-allegedly-pouring-gas-another-man-lighting-fire-police',
 				year: 2023
 			}
@@ -1809,7 +1845,8 @@ export const floridaman: IFloridaman[] = [
 		month: 5,
 		data: [
 			{
-				title: 'Florida Man Hits Sleeping Roommate on Head with a Skillet for Being a “Confidential Informant” ',
+				title:
+					'Florida Man Hits Sleeping Roommate on Head with a Skillet for Being a “Confidential Informant” ',
 				link: 'https://wtfflorida.com/news/crime/florida-man-hits-sleeping-roommate-on-head-with-a-skillet-for-being-a-confidential-informant/',
 				year: 2018
 			}
@@ -1820,7 +1857,8 @@ export const floridaman: IFloridaman[] = [
 		month: 5,
 		data: [
 			{
-				title: 'Florida Man  Breaks Into Restaurant, Steals All Their White Claw, Throws It Into A Pond',
+				title:
+					'Florida Man  Breaks Into Restaurant, Steals All Their White Claw, Throws It Into A Pond',
 				link: 'https://www.whiskeyriff.com/2021/05/31/florida-man-actually-named-florida-breaks-into-restaurant-steals-all-their-white-claw-throws-it-into-a-pond/',
 				year: 2021
 			}
@@ -1898,7 +1936,7 @@ export const floridaman: IFloridaman[] = [
 		data: [
 			{
 				title: 'An alligator hit a man while it was running away in Florida',
-				link: 'https://floridamanbirthday.org/june-7',				
+				link: 'https://floridamanbirthday.org/june-7'
 			}
 		]
 	},
@@ -1907,7 +1945,8 @@ export const floridaman: IFloridaman[] = [
 		month: 6,
 		data: [
 			{
-				title: 'Florida Man Dubbed the Diaper Bandit Arrested After Repeatedly Trying to Steal Diapers From Local Stores',
+				title:
+					'Florida Man Dubbed the Diaper Bandit Arrested After Repeatedly Trying to Steal Diapers From Local Stores',
 				link: 'https://www.newsweek.com/florida-man-diaper-bandit-arrested-1451254',
 				year: 2019
 			}
@@ -1918,7 +1957,8 @@ export const floridaman: IFloridaman[] = [
 		month: 6,
 		data: [
 			{
-				title: 'Naked Florida man accused of bizarre crime spree that included trying to kiss elderly woman',
+				title:
+					'Naked Florida man accused of bizarre crime spree that included trying to kiss elderly woman',
 				link: 'https://www.clickorlando.com/news/2020/06/09/naked-florida-man-accused-of-bizarre-crime-spree-that-included-trying-to-kiss-elderly-woman/',
 				year: 2020
 			}
@@ -1951,7 +1991,8 @@ export const floridaman: IFloridaman[] = [
 		month: 6,
 		data: [
 			{
-				title: 'Naked Florida Man Performs Strange Dance at McDonald Before Trying to Have Relations With a Railing',
+				title:
+					'Naked Florida Man Performs Strange Dance at McDonald Before Trying to Have Relations With a Railing',
 				link: 'https://www.newsweek.com/florida-man-naked-strange-dance-mcdonalds-sex-railing-1443522',
 				year: 2019
 			}
@@ -1984,7 +2025,8 @@ export const floridaman: IFloridaman[] = [
 		month: 6,
 		data: [
 			{
-				title: 'Florida man pushes pastor, knocks churchgoers to ground because service was too loud',
+				title:
+					'Florida man pushes pastor, knocks churchgoers to ground because service was too loud',
 				link: 'https://www.clickorlando.com/news/local/2020/06/15/florida-man-pushes-pastor-knocks-churchgoers-to-ground-because-service-was-too-loud-police-say/',
 				year: 2020
 			}
@@ -2061,7 +2103,8 @@ export const floridaman: IFloridaman[] = [
 		month: 6,
 		data: [
 			{
-				title: 'Florida man carrying nearly 500 grams of weed tries to steal plane to meet girlfriend',
+				title:
+					'Florida man carrying nearly 500 grams of weed tries to steal plane to meet girlfriend',
 				link: 'https://www.clickorlando.com/news/local/2020/06/22/florida-man-carrying-nearly-500-grams-of-weed-tries-to-steal-plane-to-meet-girlfriend-police-say/',
 				year: 2020
 			}
@@ -2072,7 +2115,8 @@ export const floridaman: IFloridaman[] = [
 		month: 6,
 		data: [
 			{
-				title: 'Florida man, 23, tried to pay for his McDonalds drive-thru order with a bag of marijuana',
+				title:
+					'Florida man, 23, tried to pay for his McDonalds drive-thru order with a bag of marijuana',
 				link: 'https://www.dailymail.co.uk/news/article-6507575/Police-Man-tried-pay-McDonalds-bag-weed.html',
 				year: 2018
 			}
@@ -2083,8 +2127,9 @@ export const floridaman: IFloridaman[] = [
 		month: 6,
 		data: [
 			{
-				title: 'Florida man kills grandmother in nudist colony, drives around with her body for five hours',
-				link: 'https://www.upi.com/Top_News/US/2014/06/24/Florida-man-kills-grandmother-in-nudist-colony-drives-around-with-her-body-for-five-hours/8991403652466/',
+				title:
+					'Florida man kills grandmother in nudist colony, drives around with her body for five hours',
+				link: 'https://www.upi.com/Top_News/US/2014/06/24/Florida-man-kills-grandmother-in-nudist-colony-drives-around-with-her-body-for-five-hours/8991403652466/'
 			}
 		]
 	},
@@ -2104,7 +2149,8 @@ export const floridaman: IFloridaman[] = [
 		month: 6,
 		data: [
 			{
-				title: 'Florida man accused of killing dancing flamingo is hit by truck and killed before trial',
+				title:
+					'Florida man accused of killing dancing flamingo is hit by truck and killed before trial',
 				link: 'https://www.washingtonexaminer.com/news/florida-man-accused-of-killing-dancing-flamingo-is-hit-by-truck-and-killed-before-trial',
 				year: 2019
 			}
@@ -2115,7 +2161,8 @@ export const floridaman: IFloridaman[] = [
 		month: 6,
 		data: [
 			{
-				title: 'Deputies: Florida man shoots at midstate watermelon business workers after argument',
+				title:
+					'Deputies: Florida man shoots at midstate watermelon business workers after argument',
 				link: 'https://wgxa.tv/news/local/deputies-florida-man-shoots-at-midstate-watermelon-business-workers-after-argument',
 				year: 2020
 			}
@@ -2126,7 +2173,8 @@ export const floridaman: IFloridaman[] = [
 		month: 6,
 		data: [
 			{
-				title: 'Florida man accused of robbing victim who refused to buy him Wendy’s chicken nuggets',
+				title:
+					'Florida man accused of robbing victim who refused to buy him Wendy’s chicken nuggets',
 				link: 'https://www.kiro7.com/news/trending/snack-attack-florida-man-accused-robbing-victim-who-refused-buy-him-wendys-chicken-nuggets/YWHOIIRFQJHS5GQW47WPMQ574M/',
 				year: 2022
 			}
