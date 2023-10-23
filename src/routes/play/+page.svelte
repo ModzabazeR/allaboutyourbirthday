@@ -42,10 +42,12 @@
 	<title>Play | All About Your Birthday</title>
 </svelte:head>
 
-<section class="flex h-screen items-center justify-center bg-primary relative overflow-hidden">
+<section class="flex h-[93vh] items-center justify-center bg-primary relative overflow-hidden">
 	<ExitWindow className={exitWindowClassNameValue} />
 	<ResultWindow
 		data={{
+            day: data.day,
+            month: data.month,
 			floridaman: data.floridaman.data[Math.floor(Math.random() * data.floridaman.data.length)],
 			dateTrivia: data.dateTrivia,
 			dayTrivia: data.dayTrivia,

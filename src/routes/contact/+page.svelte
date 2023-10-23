@@ -38,7 +38,7 @@
 	<title>Contact | All About Your Birthday</title>
 </svelte:head>
 
-<section class="flex justify-center items-center h-screen gap-4 bg-primary">
+<section class="flex justify-center items-center h-[93vh] gap-4 bg-primary">
         {#each contactData as contact}
             <ContactCard data={contact} />
         {/each}

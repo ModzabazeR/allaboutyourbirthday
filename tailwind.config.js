@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       boxShadow: {
-        '95': 'inset 3px 3px #fff, 3px 3px #000',
+        '95': 'inset 3px 3px 2px #fff, 3px 3px 2px #000',
         'box95': 'inset 2px 2px 1px #000',
       },
       backgroundColor: {

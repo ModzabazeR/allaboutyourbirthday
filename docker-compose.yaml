@@ -18,7 +18,7 @@ services:
       - MONGO_URL=mongodb://admin:1234@mongodb:27017
     container_name: allaboutyourbirthday-client
     ports:
-      - "8080:5173"
+      - "80:5173"
     volumes:
       - .:/home/node/app
     depends_on:
