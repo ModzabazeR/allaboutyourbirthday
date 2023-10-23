@@ -1,12 +1,48 @@
-<script>
+<script lang="ts">
 	import catcry from '$lib/images/cat-cry.jpeg';
 	import mainJesus from '$lib/images/mainJesus.jpg';
 
 	import { goto } from '$app/navigation';
+	import { onMount } from 'svelte';
+
+	let left: number;
+	let top: number;
+	let DivContainer: HTMLDivElement;
+
+	let moving = false;
+
+	function onMouseDown() {
+		moving = true;
+	}
+
+	function onMouseMove(e: any) {
+		if (moving) {
+			left += e.movementX;
+			top += e.movementY;
+		}
+	}
+
+	function onMouseUp() {
+		moving = false;
+	}
+
+	onMount(() => {
+		// set left and top to the div current position
+		left = DivContainer.getBoundingClientRect().left;
+		top = DivContainer.getBoundingClientRect().top;
+	});
 </script>
 
-<div class="flex flex-col bg-taskbar h-max md:w-1/3 shadow-95 font-[win95]">
-	<div class="flex flex-row m-2 p-2 gap-2 text-white bg-winblue">
+<div
+	class="flex flex-col bg-taskbar h-max md:w-1/3 shadow-95 font-[win95] absolute"
+	style={left && top ? `left: ${left}px; top: ${top}px;` : ''}
+	bind:this={DivContainer}
+>
+	<!-- svelte-ignore a11y-no-static-element-interactions -->
+	<div
+		class="flex flex-row m-2 p-2 gap-2 text-white bg-winblue select-none cursor-move"
+		on:mousedown={onMouseDown}
+	>
 		<img src={mainJesus} alt="" class="mainjesus-img" />
 		<h1 class="uppercase">All About Your Birthday</h1>
 	</div>
@@ -28,6 +64,8 @@
 		</div>
 	</div>
 </div>
+
+<svelte:window on:mouseup={onMouseUp} on:mousemove={onMouseMove} />
 
 <style>
 	.button-container {

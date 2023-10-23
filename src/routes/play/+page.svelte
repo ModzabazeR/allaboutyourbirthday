@@ -2,6 +2,7 @@
 	import Taskbar from '$components/taskbar.svelte';
 	import ExitWindow from '$components/exitWindow.svelte';
     import ResultWindow from '$components/resultWindow.svelte';
+    import Draggable from '$components/draggable.svelte';
 
 	import type { IFloridaman } from '$lib/types/dataInterfaces';
 
@@ -26,13 +27,13 @@
 </script>
 
 <section class="flex h-screen items-center justify-center bg-primary">
-		<ExitWindow />
-        <!-- <ResultWindow data={{
+		<!-- <ExitWindow /> -->
+        <ResultWindow data={{
             floridaman: data.floridaman.data[Math.floor(Math.random() * data.floridaman.data.length)],
             dateTrivia: data.dateTrivia,
             dayTrivia: data.dayTrivia,
             monthTrivia: data.monthTrivia
-        }} /> -->
+        }} />
 	<Taskbar />
 </section>
 

@@ -12,6 +12,27 @@
 
 	export let data: ResultWindowProps;
 
+    let left: number;
+	let top: number;
+	let DivContainer: HTMLDivElement;
+
+	let moving = false;
+
+	function onMouseDown() {
+		moving = true;
+	}
+
+	function onMouseMove(e: any) {
+		if (moving) {
+			left += e.movementX;
+			top += e.movementY;
+		}
+	}
+
+	function onMouseUp() {
+		moving = false;
+	}
+
 	let xButtonImage: HTMLImageElement;
 
 	const getFloridaManText = () => {
@@ -37,13 +58,17 @@
 		xButtonImage.addEventListener('mouseleave', () => {
 			xButtonImage.src = xButtonUnpressed;
 		});
+        // set left and top to the div current position
+		left = DivContainer.getBoundingClientRect().left;
+		top = DivContainer.getBoundingClientRect().top;
 	});
 </script>
 
-<div class="flex flex-col bg-taskbar h-3/4 md:w-4/6 shadow-95 font-[win95] m-4">
-	<div class="flex justify-between m-2 p-2 text-white bg-winblue">
+<div class="flex flex-col bg-taskbar h-3/4 md:w-4/6 shadow-95 font-[win95] m-4 absolute" bind:this={DivContainer} style={left && top ? `left: ${left}px; top: ${top}px;` : ''}>
+	<!-- svelte-ignore a11y-no-static-element-interactions -->
+	<div class="flex justify-between m-2 p-2 text-white bg-winblue select-none cursor-move" on:mousedown={onMouseDown}>
 		<h1 class="uppercase font-bold">All About Your Birthday</h1>
-		<img src={xButtonUnpressed} alt="xButton" class="h-6" bind:this={xButtonImage} />
+		<img src={xButtonUnpressed} alt="xButton" class="h-6 cursor-default" bind:this={xButtonImage} />
 	</div>
 	<div class="flex flex-col bg-white m-2 h-full p-4 gap-2 overflow-y-scroll">
 		<p>Florida Man >> {getFloridaManText()}</p>
@@ -52,3 +77,4 @@
 		<p>Month Trivia >> {data.monthTrivia}</p>
 	</div>
 </div>
+<svelte:window on:mouseup={onMouseUp} on:mousemove={onMouseMove} />
