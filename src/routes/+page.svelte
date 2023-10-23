@@ -45,19 +45,11 @@
 			<img src={god} alt="" class="jesus-img" />
 		</div>
 		<div class="w-1/2 box flex flex-col items-center my-auto gap-8">
-<<<<<<< HEAD
-			<img src={logo} alt="" class="logo-img">
-			<div class="flex h-max border-black border-2">
-				<input type="text" name="day"/>
-				<button> 
-					<img src={startUnpress} alt="" class="startUnpress-img" />
-=======
 			<img src={logo} alt="" class="logo-img" />
 			<form on:submit|preventDefault={clickHandler} class="flex h-max border-black border-2">
 				<input class="p-4" type="text" name="date" placeholder="eg. 25 December as 25/12" />
 				<button type="submit">
 					<img src={startUnpress} alt="" class="startUnpress-img" bind:this={startButtonImage} />
->>>>>>> ff4e3400f0dd1b9abc1208dad039295360cd284d
 				</button>
 			</form>
 		</div>
