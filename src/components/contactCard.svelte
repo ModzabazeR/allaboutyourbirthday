@@ -11,13 +11,13 @@
 	export let data: ContactData;
 </script>
 
-<div class="flex flex-col bg-taskbar h-[36rem] w-[16rem] shadow-95 font-[win95]">
-	<div class="m-2 p-2 text-white bg-winblue flex gap-2">
+<div class="flex flex-col bg-taskbar h-11/12 md:w-1/6 shadow-95 font-[win95]">
+	<div class="m-2 p-2 text-white bg-winblue flex gap-2 pointer-events-none">
 		<img src={mainJesus} alt="" class="mainjesus-img" />
 		<h1 class="uppercase">Contact</h1>
 	</div>
 
-	<div class="flex flex-col gap-4 p-4">
+	<div class="flex flex-col gap-4 p-4 mb-20">
 		<h1 class="size-text">{data.name}</h1>
 		<img class="member-img h-12" src={data.imagePath} alt={data.name} />
 		<p><span class="font-bold">Name:</span> {data.name}</p>
@@ -39,7 +39,6 @@
 		font-size: 30px;
 		font-weight: bold;
 		letter-spacing: 1px;
-
 		text-overflow: ellipsis;
 		overflow: hidden;
 		white-space: nowrap;

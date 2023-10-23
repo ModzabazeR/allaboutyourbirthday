@@ -45,7 +45,7 @@
 		</div>
 		<div class="w-1/2 box flex flex-col items-center my-auto gap-8">
 			<img src={logo} alt="" class="logo-img" />
-			<form on:submit|preventDefault={clickHandler} class="flex h-max border-black border-2">
+			<form on:submit|preventDefault={clickHandler} class="flex h-max border-black border-[3px]">
 				<input class="p-4" type="text" name="date" placeholder="eg. 25 December as 25/12" />
 				<button type="submit">
 					<img src={startUnpress} alt="" class="startUnpress-img" bind:this={startButtonImage} />

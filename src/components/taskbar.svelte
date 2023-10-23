@@ -5,61 +5,56 @@
 	import aButton from '$lib/images/aButton.png';
 	import { goto } from '$app/navigation';
 	import { onMount } from 'svelte';
+
 	function realtimeClock() {
-		var rtClock = new Date();
+		const rtClock = new Date();
 
+		let hours = rtClock.getHours();
+		let minutes = rtClock.getMinutes();
 
-		var hours = rtClock.getHours();
-		var minutes = rtClock.getMinutes();
-		var seconds = rtClock.getSeconds();
-
-		var amPm = hours < 12 ? 'AM' : 'PM';
+		const amPm = hours < 12 ? 'AM' : 'PM';
 
 		hours = hours > 12 ? hours - 12 : hours;
 
-		var hoursStr = ('0' + hours).slice(-2);
-		var minutesStr = ('0' + minutes).slice(-2);
-		var secondsStr = ('0' + seconds).slice(-2);
+		const hoursStr = ('0' + hours).slice(-2);
+		const minutesStr = ('0' + minutes).slice(-2);
 
-		timeElement.innerHTML =
-		hoursStr + '  :  ' + minutesStr + '  :  ' + secondsStr + ' ' + amPm;
-		var t = setTimeout(realtimeClock, 500);
+		timeElement.textContent = `${hoursStr}:${minutesStr} ${amPm}`;
+		const t = setTimeout(realtimeClock, 1000);
 	}
-	onMount(realtimeClock)
+
+	onMount(realtimeClock);
 </script>
 
-<footer class="footer z-20">
-	<div class="flex text-white p-4 box">
-		<div class="flex h-max gap-12">
-			<!-- svelte-ignore a11y-click-events-have-key-events -->
-			<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-			<img
-				src={window}
-				alt=""
-				class="window-img cursor-pointer"
-				on:click={() => {
-					goto('/play', { replaceState: true });
-				}}
-			/>
-			<!-- svelte-ignore a11y-click-events-have-key-events -->
-			<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-			<img
-				src={folder}
-				alt=""
-				class="folder-img cursor-pointer"
-				on:click={() => {
-					goto('/contact', { replaceState: true });
-				}}
-			/>
-		</div>
-		<img src={aButton} alt="" class="aButton-img" />
-		<p bind:this={timeElement} class="time font-[win95]"></p>		
+<footer class="flex items-center text-white p-4 footer z-20 bg-taskbar">
+	<div class="flex h-max gap-12">
+		<!-- svelte-ignore a11y-click-events-have-key-events -->
+		<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
+		<img
+			src={window}
+			alt=""
+			class="window-img cursor-pointer"
+			on:click={() => {
+				goto('/play', { replaceState: true });
+			}}
+		/>
+		<!-- svelte-ignore a11y-click-events-have-key-events -->
+		<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
+		<img
+			src={folder}
+			alt=""
+			class="folder-img cursor-pointer"
+			on:click={() => {
+				goto('/contact', { replaceState: true });
+			}}
+		/>
 	</div>
+	<img src={aButton} alt="" class="aButton-img" />
+	<p bind:this={timeElement} class="time font-[win95] text-xl text-black" />
 </footer>
 
 <style>
 	.footer {
-		background-color: #cccccc;
 		width: 100%;
 		position: fixed;
 		bottom: 0;
@@ -67,7 +62,6 @@
 	.time {
 		position: absolute;
 		right: 30px;
-		color: rgb(233, 47, 208);
 	}
 	.window-img {
 		width: 50px;
