@@ -20,7 +20,7 @@
 		<div class="w-1/2 box flex flex-col items-center my-auto gap-8">
 			<img src={logo} alt="" class="logo-img">
 			<div class="flex h-max border-black border-2">
-				<input type="text" name="day" />
+				<input type="text" name="day"/>
 				<button> 
 					<img src={startUnpress} alt="" class="startUnpress-img" />
 				</button>
