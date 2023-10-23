@@ -91,7 +91,7 @@
 			}}
 		/>
 	</div>
-	<div class="flex flex-col bg-white m-2 h-full p-4 gap-2 overflow-y-scroll">
+	<div class="flex flex-col bg-white m-2 h-full p-4 gap-2 overflow-y-auto">
 		<p>Florida Man >> {getFloridaManText()}</p>
 		<p>Date Trivia >> {data.dateTrivia}</p>
 		<p>Day Trivia >> {data.dayTrivia}</p>
