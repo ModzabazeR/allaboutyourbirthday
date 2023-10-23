@@ -3,6 +3,10 @@
 	import ContactCard from '$components/contactCard.svelte';
 </script>
 
+<svelte:head>
+	<title>Contact | All About Your Birthday</title>
+</svelte:head>
+
 <section class="bg-primary">
 	<div class="box gap-4">
 		<ContactCard

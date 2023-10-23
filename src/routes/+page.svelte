@@ -34,11 +34,10 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<title>All About Your Birthday</title>
 </svelte:head>
 
-<section class="flex h-screen w-full">
+<section class="flex h-screen w-full font-[win95]">
 	<div class="flex w-full">
 		<img src={bg} alt="" class="bg-img" />
 		<div class="w-1/2">

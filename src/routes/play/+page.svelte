@@ -38,6 +38,10 @@
 	});
 </script>
 
+<svelte:head>
+	<title>Play | All About Your Birthday</title>
+</svelte:head>
+
 <section class="flex h-screen items-center justify-center bg-primary relative overflow-hidden">
 	<ExitWindow className={exitWindowClassNameValue} />
 	<ResultWindow
