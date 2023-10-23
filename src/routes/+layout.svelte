@@ -1,5 +1,7 @@
 <script>
 	import './styles.css';
+	import { navigating } from '$app/stores';
+	import Loading from '$components/loading.svelte';
 </script>
 
 <svelte:head>
@@ -8,6 +10,9 @@
 
 <div class="app">
 	<main>
+		{#if $navigating}
+			<Loading />
+		{/if}
 		<slot />
 	</main>
 </div>
