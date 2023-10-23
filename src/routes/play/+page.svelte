@@ -21,7 +21,8 @@
 	});
 
 	interface PageProps {
-		hasCookie: boolean;
+        day: number;
+        month: number;
 		floridaman: IFloridaman;
 		dateTrivia: string;
 		dayTrivia: string;
@@ -31,13 +32,13 @@
 	export let data: PageProps;
 
 	onMount(() => {
-		if (!data.hasCookie) {
+		if (data.day === 0 && data.month === 0) {
 			goto('/', { replaceState: true });
 		}
 	});
 </script>
 
-<section class="flex h-screen items-center justify-center bg-primary">
+<section class="flex h-screen items-center justify-center bg-primary relative overflow-hidden">
 	<ExitWindow className={exitWindowClassNameValue} />
 	<ResultWindow
 		data={{

@@ -38,10 +38,24 @@ export const load = async ({ fetch, cookies }) => {
 		const date = dateCookie.split('/');
 		day = parseInt(date[0]);
 		month = parseInt(date[1]);
+	} else {
+		return {
+			day,
+			month,
+			floridaman: {
+				day: 0,
+				month: 0,
+				data: []
+			},
+			dateTrivia: '',
+			dayTrivia: '',
+			monthTrivia: ''
+		};
 	}
 
 	return {
-		hasCookie: !!dateCookie,
+		day,
+		month,
 		floridaman: await fetchFloridamanData(fetch, day, month),
 		dateTrivia: await fetchNumberApiData(fetch, 'date', day, month),
 		dayTrivia: await fetchNumberApiData(fetch, 'day', day, month),
