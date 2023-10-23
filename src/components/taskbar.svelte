@@ -3,13 +3,22 @@
 	import folder from '$lib/images/fold.png';
 	import window from '$lib/images/window.png';
 	import aButton from '$lib/images/aButton.png';
+	import { goto } from '$app/navigation';
 </script>
 
 <footer class="footer z-20">
 	<div class="flex text-white p-4 box">
 		<div class="flex h-max gap-12">
-			<img src={window} alt="" class="window-img cursor-pointer" />
-			<img src={folder} alt="" class="folder-img cursor-pointer" />
+			<!-- svelte-ignore a11y-click-events-have-key-events -->
+			<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
+			<img src={window} alt="" class="window-img cursor-pointer" on:click={() => {
+				goto('/play', { replaceState: true });
+			}} />
+			<!-- svelte-ignore a11y-click-events-have-key-events -->
+			<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
+			<img src={folder} alt="" class="folder-img cursor-pointer" on:click={() => {
+				goto('/contact', { replaceState: true })
+			}} />
 		</div>
 		<img src={aButton} alt="" class="aButton-img" />
 		<p bind:this={timeElement} class="time">11:17 PM</p>
