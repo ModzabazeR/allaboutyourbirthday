@@ -5,13 +5,17 @@
 	import god from '$lib/images/JesusCrist.png';
 
 	import { goto } from '$app/navigation';
-	import { day, month } from '../stores';
 
 	const clickHandler = (e: any) => {
 		const date: string = e.target.date.value;
-		const [dayStr, monthStr] = date.split('/');
-		day.update((_) => parseInt(dayStr));
-		month.update((_) => parseInt(monthStr));
+
+		if (!/^\d{2}\/\d{2}$/.test(date)) {
+			alert('Please enter a valid date in the format dd/mm');
+			return;
+		}
+
+		// set cookie and expire in 1 day
+		document.cookie = `date=${date}; max-age=${60 * 60 * 24}`;
 		goto('/play', { replaceState: true });
 	}
 </script>

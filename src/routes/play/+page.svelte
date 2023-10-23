@@ -1,39 +1,49 @@
 <script lang="ts">
-    import Taskbar from "$components/taskbar.svelte";
-    import ExitWindow from "$components/exitWindow.svelte";
+	import Taskbar from '$components/taskbar.svelte';
+	import ExitWindow from '$components/exitWindow.svelte';
+    import ResultWindow from '$components/resultWindow.svelte';
 
-    import { day, month } from "../../stores";
-	import { onMount } from "svelte";
+	import type { IFloridaman } from '$lib/types/dataInterfaces';
 
-    let dayValue: number, monthValue: number;
+	import { goto } from '$app/navigation';
+	import { onMount } from 'svelte';
 
-    day.subscribe((value) => (dayValue = value));
-    month.subscribe((value) => (monthValue = value));
+	interface PageProps {
+		hasCookie: boolean;
+		floridaman: IFloridaman;
+		dateTrivia: string;
+		dayTrivia: string;
+		monthTrivia: string;
+	}
 
-    const fetchFloridaman = async () => {
-        const res = await fetch(`/api/floridaman?day=${dayValue}&month=${monthValue}`);
-        const data = await res.json();
-        return data;
-    };
+	export let data: PageProps;
 
-    onMount( async () => {
-        console.log(`day: ${dayValue}, month: ${monthValue}`)
-        console.log(await fetchFloridaman());
-    });
+	onMount(() => {
+		if (!data.hasCookie) {
+			goto('/', { replaceState: true });
+		}
+        console.log(data);
+	});
 </script>
 
-<section class="bg-primary">
-    <div class="box">
-        <ExitWindow />
-    </div>
-    <Taskbar />
+<section class="flex h-screen items-center justify-center bg-primary">
+	<div class="box">
+		<!-- <ExitWindow /> -->
+        <ResultWindow data={{
+            floridaman: data.floridaman.data[Math.floor(Math.random() * data.floridaman.data.length)],
+            dateTrivia: data.dateTrivia,
+            dayTrivia: data.dayTrivia,
+            monthTrivia: data.monthTrivia
+        }} />
+	</div>
+	<Taskbar />
 </section>
 
 <style>
-    .box {
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+	.box {
+		height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 </style>
