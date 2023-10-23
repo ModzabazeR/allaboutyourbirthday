@@ -37,18 +37,18 @@
 	<title>All About Your Birthday</title>
 </svelte:head>
 
-<section class="flex h-screen w-full font-[win95]">
+<section class="flex h-screen w-full font-[win95] justify-center md:justify-normal">
 	<div class="flex w-full">
 		<img src={bg} alt="" class="bg-img" />
-		<div class="w-1/2">
-			<img src={god} alt="" class="jesus-img" />
+		<div class="w-0 md:w-1/2">
+			<img src={god} alt="" class="jesus-img invisible md:visible md:left-8 md:h-[60vh] lg:left-24 lg:h-[80vh]" />
 		</div>
-		<div class="w-1/2 box flex flex-col items-center my-auto gap-8">
-			<img src={logo} alt="" class="logo-img" />
+		<div class="w-full md:w-1/2 box flex flex-col items-center my-auto gap-8">
+			<img src={logo} alt="" class="h-44 md:h-60" />
 			<form on:submit|preventDefault={clickHandler} class="flex h-max border-black border-[3px]">
-				<input class="p-4" type="text" name="date" placeholder="eg. 25 December as 25/12" />
+				<input class="p-4 w-40 md:w-72 h-9 text-lg" type="text" name="date" placeholder="eg. 25 December as 25/12" />
 				<button type="submit">
-					<img src={startUnpress} alt="" class="startUnpress-img" bind:this={startButtonImage} />
+					<img src={startUnpress} alt="" class="startUnpress-img h-9" bind:this={startButtonImage} />
 				</button>
 			</form>
 		</div>
@@ -65,21 +65,9 @@
 	.jesus-img {
 		position: absolute;
 		width: auto;
-		height: 80vh;
 		bottom: 0;
-		left: 130px;
-	}
-	.logo-img {
-		width: 500px;
 	}
 	.box input {
-		height: 50px;
-		width: 300px;
 		outline: none;
-		font-size: 22px;
-	}
-	.box button {
-		height: 50px;
-		width: 130px;
 	}
 </style>
