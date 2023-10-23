@@ -1,22 +1,29 @@
 <script>
 	import catcry from '$lib/images/cat-cry.jpeg';
 	import mainJesus from '$lib/images/mainJesus.jpg';
+
+	import { goto } from '$app/navigation';
 </script>
 
-<div class="flex flex-col bg-taskbar h-[24rem] w-[36rem] shadow-95 font-[win95]">
+<div class="flex flex-col bg-taskbar h-max md:w-1/3 shadow-95 font-[win95]">
 	<div class="flex flex-row m-2 p-2 gap-2 text-white bg-winblue">
 		<img src={mainJesus} alt="" class="mainjesus-img" />
 		<h1 class="uppercase">All About Your Birthday</h1>
 	</div>
 
-	<div class="bg-white m-2 h-80">
+	<div class="flex flex-col justify-center bg-white m-2 h-80">
 		<div class="flex flex-col gap-6 p-2">
 			<h1 class="size-far">You want to leave this page ?</h1>
 			<img src={catcry} alt="The cat doesn't love you" class="catcry-img" />
 
-			<div class="button-container flex flex-row">
-				<a href="/" class="button text-center shadow-95">Cancel</a>
-				<a href="/" class="button text-center shadow-95">Yes</a>
+			<div class="button-container flex flex-row justify-center gap-4 md:gap-12">
+				<button class="button text-center shadow-95 bg-taskbar">Cancel</button>
+				<button
+					class="button text-center shadow-95 bg-taskbar"
+					on:click={() => {
+						goto('/', { replaceState: true });
+					}}>Yes</button
+				>
 			</div>
 		</div>
 	</div>
@@ -29,20 +36,10 @@
 	}
 
 	.button {
-		background-color: #cccccc;
-		/* box-shadow: inset 1px 1px #fff, 1px 1px #000; */
 		border: 2px solid black;
-
 		padding-bottom: 5px;
 		padding-top: 5px;
-
 		width: 155px;
-
-		/* margin-left: 85px;
-		margin-right: -35px; */
-
-		margin: auto;
-
 		font-size: 18px;
 	}
 

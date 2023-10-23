@@ -1,10 +1,14 @@
 <script lang="ts">
 	import startUnpress from '$lib/images/startUnpress.png';
+	import startPress from '$lib/images/startPress.png';
 	import bg from '$lib/images/background.png';
 	import logo from '$lib/images/logo.png';
 	import god from '$lib/images/JesusCrist.png';
 
 	import { goto } from '$app/navigation';
+	import { onMount } from 'svelte';
+
+	let startButtonImage: HTMLImageElement;
 
 	const clickHandler = (e: any) => {
 		const date: string = e.target.date.value;
@@ -18,6 +22,15 @@
 		document.cookie = `date=${date}; max-age=${60 * 60 * 24}`;
 		goto('/play', { replaceState: true });
 	}
+
+	onMount(() => {
+		startButtonImage.addEventListener('mouseover', () => {
+			startButtonImage.src = startPress;
+		});
+		startButtonImage.addEventListener('mouseleave', () => {
+			startButtonImage.src = startUnpress;
+		});
+	});
 </script>
 
 <svelte:head>
@@ -36,7 +49,7 @@
 			<form on:submit|preventDefault={clickHandler} class="flex h-max border-black border-2">
 				<input class="p-4" type="text" name="date" placeholder="eg. 25 December as 25/12" />
 				<button type="submit">
-					<img src={startUnpress} alt="" class="startUnpress-img" />
+					<img src={startUnpress} alt="" class="startUnpress-img" bind:this={startButtonImage} />
 				</button>
 			</form>
 		</div>
