@@ -2,8 +2,6 @@ services:
   mongodb:
     image: mongo:7.0.2-jammy
     container_name: allaboutyourbirthday-webdb
-    ports:
-      - "27017:27017"
     environment:
       - MONGO_INITDB_ROOT_USERNAME=admin
       - MONGO_INITDB_ROOT_PASSWORD=1234
@@ -14,12 +12,9 @@ services:
   web:
     build: .
     environment:
-      - NODE_ENV=development
-      - MONGO_URL=mongodb://admin:1234@mongodb:27017
+      - NODE_ENV=production
     container_name: allaboutyourbirthday-client
     ports:
-      - "80:5173"
-    volumes:
-      - .:/home/node/app
+      - "80:3000"
     depends_on:
       - mongodb

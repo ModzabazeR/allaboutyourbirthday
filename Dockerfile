@@ -4,5 +4,11 @@ WORKDIR /home/node/app
 
 COPY . .
 
-EXPOSE 5173
-CMD [ -d "node_modules" ] && yarn dev || yarn install && yarn dev
+RUN yarn install --immutable
+RUN yarn build
+
+USER node:node
+
+EXPOSE 3000
+
+CMD ["node", "-r", "dotenv/config", "build"]
