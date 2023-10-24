@@ -7,8 +7,8 @@
 	import mainJesus from '$lib/images/mainJesus.jpg';
 
 	interface ResultWindowProps {
-        day: number;
-        month: number;
+		day: number;
+		month: number;
 		floridaman: IFloridamanData;
 		dateTrivia: string;
 		dayTrivia: string;
@@ -57,12 +57,12 @@
 		return text;
 	};
 
-    const getBirthdate = (day: number, month: number) => {
-        const date = new Date();
-        date.setDate(day);
-        date.setMonth(month - 1);
-        return date.toLocaleDateString('en-GB', { day: 'numeric', month: 'long' });
-    }
+	const getBirthdate = (day: number, month: number) => {
+		const date = new Date();
+		date.setDate(day);
+		date.setMonth(month - 1);
+		return date.toLocaleDateString('en-GB', { day: 'numeric', month: 'long' });
+	};
 
 	onMount(() => {
 		xButtonImage.addEventListener('mouseover', () => {
@@ -106,8 +106,15 @@
 		/>
 	</div>
 	<div class="flex flex-col text-lg bg-white m-2 h-full p-4 gap-2 overflow-y-auto shadow-box95">
-        <h1 class="text-center text-3xl font-bold my-4">Your Birthdate: {getBirthdate(data.day, data.month)}</h1>
-		<p><span class="font-bold">Florida Man >> </span>{getFloridaManText()} (<a href={data.floridaman.link} class="underline text-blue-600" target="_blank">Link</a>)</p>
+		<h1 class="text-center text-3xl font-bold my-4">
+			Your Birthdate: {getBirthdate(data.day, data.month)}
+		</h1>
+		<p>
+			<span class="font-bold">Florida Man >> </span>{getFloridaManText()}
+			{#if data.floridaman}
+				(<a href={data.floridaman.link} class="underline text-blue-600" target="_blank">Link </a>)
+			{/if}
+		</p>
 		<p><span class="font-bold">Date Trivia >> </span>{data.dateTrivia}</p>
 		<p><span class="font-bold">Day Trivia >> </span>{data.dayTrivia}</p>
 		<p><span class="font-bold">Month Trivia >> </span>{data.monthTrivia}</p>
