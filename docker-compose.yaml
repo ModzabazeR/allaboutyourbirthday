@@ -18,3 +18,20 @@ services:
       - "80:3000"
     depends_on:
       - mongodb
+    profiles:
+      - "prod"
+  webdev:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    environment:
+      - NODE_ENV=development
+    container_name: allaboutyourbirthday-client-dev
+    ports:
+      - "8080:5173"
+    volumes:
+      - .:/home/node/app
+    depends_on:
+      - mongodb
+    profiles:
+      - "dev"
