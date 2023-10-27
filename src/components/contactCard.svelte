@@ -12,7 +12,7 @@
 </script>
 
 <div class="flex flex-col bg-taskbar h-11/12 md:w-1/6 shadow-95 font-[win95]">
-	<div class="m-2 p-2 text-white bg-winblue flex gap-2 pointer-events-none">
+	<div class="m-2 p-2 text-white bg-winblue flex gap-2 pointer-events-none select-none">
 		<img src={mainJesus} alt="" class="mainjesus-img" />
 		<h1 class="uppercase">Contact</h1>
 	</div>
